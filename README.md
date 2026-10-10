@@ -62,17 +62,34 @@ Python · R · PostgreSQL · TypeScript · React · Next.js · Java · Cloudflar
   </tr>
 </table>
 
+### My GitHub workshop
+
+<p align="center">
+  <img src="./assets/github-stats.svg" width="49%" alt="GitHub statistics: stars, commits and pull requests from public activity." />
+  <img src="./assets/top-languages.svg" width="49%" alt="Language distribution across public repositories." />
+</p>
+
+<sub>Cards generated on <!-- cards-date -->2026-10-10<!-- /cards-date -->. Public GitHub data; language shares describe repository code, not skill levels.</sub>
+
+### A little contribution arcade
+
+<p align="center">
+  <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my contribution calendar, with mint contribution squares." />
+</p>
+
+<sub>My contribution calendar, reimagined by Snake. Snapshot generated on <!-- snake-date -->2026-10-10<!-- /snake-date -->.</sub>
+
 ### Explore further
 
 Browse [all my repositories](https://github.com/Muguett-DBY?tab=repositories) for more experiments. For questions or suggestions about a specific project, its repository is the best place to start.
 
 <p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="Thanks for stopping by. See you in the next little world." />
+  <img src="./assets/capsule-footer.svg" width="100%" alt="See you in the next little world. Mint and lavender gradient waves." />
 </p>
 
 <details>
   <summary>Made with a little help from open source</summary>
 
-Technology icons by [Skill Icons](https://github.com/tandpfun/skill-icons). Animated text by [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg). See [credits and license notices](./CREDITS.md).
+Technology icons by [Skill Icons](https://github.com/tandpfun/skill-icons). Animated text by [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg). Statistics by [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats). Contribution animation by [Snake](https://github.com/Platane/snk). Gradient waves by [Capsule Render](https://github.com/kyechan99/capsule-render). See [credits and license notices](./CREDITS.md).
 
 </details>

@@ -1,0 +1,54 @@
+name: Refresh profile artwork
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-artwork
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@a041d6c27ba561a39f5be9c26a784812765e434b
+        with:
+          github_user_name: Muguett-DBY
+          outputs: |
+            assets/contribution-snake.svg?palette=github-dark&color_snake=%23bca7ff&color_dots=%2311182b,%2323413c,%233d8579,%2356baa5,%2368efd0
+      - name: Refresh statistics and footer
+        run: python scripts/refresh-cards.py
+      - name: Validate and date the snake
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          import re
+          import xml.etree.ElementTree as ET
+          node = ET.parse('assets/contribution-snake.svg').getroot()
+          assert node.tag.endswith('svg')
+          p = Path('README.md')
+          date = datetime.now(ZoneInfo('Australia/Sydney')).date().isoformat()
+          p.write_text(re.sub(r'<!-- snake-date -->.*?<!-- /snake-date -->', f'<!-- snake-date -->{date}<!-- /snake-date -->', p.read_text()))
+          PY
+      - name: Publish refreshed artwork
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/github-stats.svg assets/top-languages.svg assets/capsule-footer.svg assets/contribution-snake.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh profile artwork'
+            git push
+          fi
