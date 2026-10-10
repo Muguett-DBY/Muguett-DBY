@@ -65,8 +65,8 @@ Python · R · PostgreSQL · TypeScript · React · Next.js · Java · Cloudflar
 ### My GitHub workshop
 
 <p align="center">
-  <img src="./assets/github-stats.svg" width="49%" alt="GitHub statistics: stars, commits and pull requests from public activity." />
-  <img src="./assets/top-languages.svg" width="49%" alt="Language distribution across public repositories." />
+  <img src="./assets/github-stats.svg" width="360" alt="GitHub statistics: stars, commits and pull requests from public activity." />
+  <img src="./assets/top-languages.svg" width="360" alt="Language distribution across public repositories." />
 </p>
 
 <sub>Cards generated on <!-- cards-date -->2026-10-10<!-- /cards-date -->. Public GitHub data; language shares describe repository code, not skill levels.</sub>
