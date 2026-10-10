@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/console.gif" width="100%" alt="Turning data into useful products. Building little worlds with code. Exploring artificial intelligence." />
+  <img src="./assets/console-loop.gif" width="100%" alt="Turning data into useful products. Building little worlds with code. Exploring artificial intelligence." />
 </p>
 
 ### A little about me
