@@ -14,7 +14,7 @@
 
 ### A little about me
 
-I'm **Custard**, a builder working across **data science, web products, and interactive worlds**. My projects range from career exploration and quieter city journeys to creature encyclopedias and Minecraft experiments.
+I'm **Custard**. I build web tools, explore data and AI, and make little worlds with code.
 
 - 🎓 **Bachelor's & Master's:** Data Science
 - 🧠 **PhD Year 0:** Artificial Intelligence
@@ -81,7 +81,7 @@ Python · R · PostgreSQL · TypeScript · React · Next.js · Java · Cloudflar
 
 ### Explore further
 
-Browse [all my repositories](https://github.com/Muguett-DBY?tab=repositories) for more experiments. For questions or suggestions about a specific project, its repository is the best place to start.
+Explore [my repositories](https://github.com/Muguett-DBY?tab=repositories). Have an idea or found a bug? Open an issue in the project.
 
 <p align="center">
   <img src="./assets/capsule-footer.svg" width="100%" alt="See you in the next little world. Mint and lavender gradient waves." />
