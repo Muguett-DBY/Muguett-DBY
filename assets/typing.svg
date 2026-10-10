@@ -1,0 +1,51 @@
+<!-- https://github.com/DenverCoder1/readme-typing-svg/ -->
+<svg xmlns='http://www.w3.org/2000/svg'
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    viewBox='0 0 1120 86'
+    style='background-color: #11182B;'
+    width='1120px' height='86px'>
+
+    
+                <path id='path0'>
+                            <!-- Single line -->
+                                <animate id='d0' attributeName='d' begin='0s;d2.end'
+                    dur='4300ms' fill='remove'
+                    values='m0,43 h0 ; m0,43 h1120 ; m0,43 h1120 ; m0,43 h0' keyTimes='0;0.52093023255814;0.86976744186047;1' />
+                    </path>
+    <text font-family='"monospace", monospace' fill='#68EFD0' font-size='29'
+        dominant-baseline='middle'
+        x='50%' text-anchor='middle'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path0'>
+            Turning data into useful products.
+        </textPath>
+    </text>
+        <path id='path1'>
+                            <!-- Single line -->
+                                <animate id='d1' attributeName='d' begin='d0.end'
+                    dur='4300ms' fill='remove'
+                    values='m0,43 h0 ; m0,43 h1120 ; m0,43 h1120 ; m0,43 h0' keyTimes='0;0.52093023255814;0.86976744186047;1' />
+                    </path>
+    <text font-family='"monospace", monospace' fill='#68EFD0' font-size='29'
+        dominant-baseline='middle'
+        x='50%' text-anchor='middle'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path1'>
+            Building little worlds with code.
+        </textPath>
+    </text>
+        <path id='path2'>
+                            <!-- Single line -->
+                                <animate id='d2' attributeName='d' begin='d1.end'
+                    dur='4300ms' fill='remove'
+                    values='m0,43 h0 ; m0,43 h1120 ; m0,43 h1120 ; m0,43 h0' keyTimes='0;0.52093023255814;0.86976744186047;1' />
+                    </path>
+    <text font-family='"monospace", monospace' fill='#68EFD0' font-size='29'
+        dominant-baseline='middle'
+        x='50%' text-anchor='middle'
+        letter-spacing='normal'>
+        <textPath xlink:href='#path2'>
+            Exploring artificial intelligence.
+        </textPath>
+    </text>
+</svg>

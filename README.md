@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/console-loop.gif" width="100%" alt="Turning data into useful products. Building little worlds with code. Exploring artificial intelligence." />
+  <img src="./assets/typing.svg" width="100%" alt="Turning data into useful products. Building little worlds with code. Exploring artificial intelligence." />
 </p>
 
 ### A little about me
@@ -24,16 +24,18 @@ I'm **Custard**, a builder working across **data science, web products, and inte
 ### My toolkit
 
 <p>
-  <img src="./assets/python.svg" height="32" alt="Python" />
-  <img src="./assets/r.svg" height="32" alt="R" />
-  <img src="./assets/sql.svg" height="32" alt="SQL" />
-  <img src="./assets/typescript.svg" height="32" alt="TypeScript" />
-  <img src="./assets/react.svg" height="32" alt="React" />
-  <img src="./assets/nextjs.svg" height="32" alt="Next.js" />
-  <img src="./assets/java.svg" height="32" alt="Java" />
-  <img src="./assets/cloudflare.svg" height="32" alt="Cloudflare" />
-  <img src="./assets/supabase.svg" height="32" alt="Supabase" />
+  <img src="./assets/skill-icons/python.svg" width="48" height="48" alt="Python" title="Python" />
+  <img src="./assets/skill-icons/r.svg" width="48" height="48" alt="R" title="R" />
+  <img src="./assets/skill-icons/postgresql.svg" width="48" height="48" alt="PostgreSQL" title="PostgreSQL" />
+  <img src="./assets/skill-icons/typescript.svg" width="48" height="48" alt="TypeScript" title="TypeScript" />
+  <img src="./assets/skill-icons/react.svg" width="48" height="48" alt="React" title="React" />
+  <img src="./assets/skill-icons/nextjs.svg" width="48" height="48" alt="Next.js" title="Next.js" />
+  <img src="./assets/skill-icons/java.svg" width="48" height="48" alt="Java" title="Java" />
+  <img src="./assets/skill-icons/cloudflare.svg" width="48" height="48" alt="Cloudflare" title="Cloudflare" />
+  <img src="./assets/skill-icons/supabase.svg" width="48" height="48" alt="Supabase" title="Supabase" />
 </p>
+
+Python · R · PostgreSQL · TypeScript · React · Next.js · Java · Cloudflare · Supabase
 
 ### Things I've been building
 
@@ -67,3 +69,10 @@ Browse [all my repositories](https://github.com/Muguett-DBY?tab=repositories) fo
 <p align="center">
   <img src="./assets/footer.svg" width="100%" alt="Thanks for stopping by. See you in the next little world." />
 </p>
+
+<details>
+  <summary>Made with a little help from open source</summary>
+
+Technology icons by [Skill Icons](https://github.com/tandpfun/skill-icons). Animated text by [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg). See [credits and license notices](./CREDITS.md).
+
+</details>
