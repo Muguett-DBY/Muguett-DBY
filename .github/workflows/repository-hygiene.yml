@@ -1,0 +1,17 @@
+name: Repository Hygiene
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  tracked-files:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Check tracked artifacts and large files
+        run: python scripts/check_repository_hygiene.py

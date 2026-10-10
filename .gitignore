@@ -1,0 +1,26 @@
+
+
+# Local state and private artifacts
+/.agent/
+/.open-next/
+/.wrangler/
+/.venv/
+/node_modules/
+/.playwright-cli/
+/playwright-report/
+/test-results/
+/output/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+*.pem
+*.key
+*.p12
+gitleaks-report.json
+secret-scan.json

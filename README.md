@@ -52,8 +52,8 @@ Python · R · PostgreSQL · TypeScript · React · Next.js · Java · Cloudflar
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Muguett-DBY/RocoDex"><img src="./assets/rocodex.svg" width="100%" alt="RocoDex — A creature encyclopedia and game companion for Roco Kingdom. Next.js, TypeScript, game data." /></a>
-      <p><a href="https://github.com/Muguett-DBY/RocoDex">Source code</a> &nbsp;·&nbsp; <a href="https://rocodex.custard.top">Explore RocoDex ↗</a></p>
+      <a href="https://github.com/Muguett-DBY/RocoDex"><img src="./assets/rocodex.svg" width="100%" alt="Custard Web — Personal homepage and engineering notes, with RocoDex in the same deployment. Next.js, TypeScript, Cloudflare." /></a>
+      <p><a href="https://github.com/Muguett-DBY/RocoDex">Source code</a> &nbsp;·&nbsp; <a href="https://custard.top">Personal website ↗</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Muguett-DBY/veilreach-mod"><img src="./assets/veilreach.svg" width="100%" alt="Veilreach — A Minecraft adventure-dimension prototype with a moonlit wilderness. Java, Fabric, world-building." /></a>
@@ -93,3 +93,5 @@ Explore [my repositories](https://github.com/Muguett-DBY?tab=repositories). Have
 Technology icons by [Skill Icons](https://github.com/tandpfun/skill-icons). Animated text by [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg). Statistics by [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats). Contribution animation by [Snake](https://github.com/Platane/snk). Gradient waves by [Capsule Render](https://github.com/kyechan99/capsule-render). See [credits and license notices](./CREDITS.md).
 
 </details>
+
+Original code is available for noncommercial use under [PolyForm Noncommercial 1.0.0](LICENSE). See [license scope and third-party assets](docs/LICENSE_SCOPE.md).
