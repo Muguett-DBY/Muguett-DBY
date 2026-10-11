@@ -67,6 +67,9 @@ Use **Actions → Refresh contribution city → Run workflow** for an immediate 
 It uses the repository's built-in `GITHUB_TOKEN`; no personal token or extra
 account permission is required.
 
+Both refresh jobs check out the current default branch when they start, so a
+queued job includes changes published by the preceding refresh.
+
 ## Original assets
 
 The custard astronaut banner is an AI-generated illustration made for this profile.
