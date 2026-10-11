@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 72" width="1120" height="72">
+    <title>A little Custard workshop</title>
+    <style>.line{stroke:#d4cfeb}.label{fill:#665396}.surface{fill:#f7f8fc}.mint{fill:#399d86}
+    @media(prefers-color-scheme:dark){.line{stroke:#3b3b59}.label{fill:#bca7ff}.surface{fill:#11182b}.mint{fill:#68efd0}}</style>
+    
+    <path class="line" d="M16 36h474M630 36h474" stroke-width="2" fill="none"/>
+    <path class="mint" d="m508 32 4 4-4 4-4-4zm104 0 4 4-4 4-4-4z"/>
+    <g transform="translate(540 12) scale(1.15)" shape-rendering="crispEdges">
+      <path d="M8 8h6V4h12v4h6v6h4v18h-4v6H8v-6H4V14h4z" fill="#ffd783"/>
+      <path d="M8 14h4v-4h8v4h-8v6H8z" fill="#fff0bf"/>
+      <path d="M22 8h4v6h4v4h-4v-4h-4z" fill="#e6ad60"/>
+      <path d="M12 24h3v4h-3zm13 0h3v4h-3z" fill="#29304a"/>
+      <path d="M17 29h6v3h-6z" fill="#986556"/>
+      <path d="M8 29h4v3H8zm20 0h4v3h-4z" fill="#efa1a2"/>
+    </g>
+</svg>

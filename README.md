@@ -1,96 +1,114 @@
 <p align="center">
-  <img src="./assets/custard-space.png" width="100%" alt="Hi, I'm Custard. Data, code and little worlds. A custard-bun astronaut coding in a pixel-art space studio." />
+  <img src="./assets/custard-space.png" width="100%" alt="Hi, I'm Custard. Data, code and little worlds. A custard-bun astronaut in a pixel-art space studio." />
 </p>
 
 <p align="center">
-  <a href="#things-ive-been-building"><strong>Step into my workshop ↓</strong></a>
+  <a href="https://custard.top"><strong>Visit my website ↗</strong></a>
   &nbsp; · &nbsp;
-  <a href="https://github.com/Muguett-DBY?tab=repositories">Explore my repositories</a>
+  <a href="#selected-projects">Explore my projects ↓</a>
+  &nbsp; · &nbsp;
+  <a href="https://custard.top/en/notes">Read my notes</a>
 </p>
 
-<p align="center">
-  <img src="./assets/typing.svg" width="100%" alt="Turning data into useful products. Building little worlds with code. Exploring artificial intelligence." />
-</p>
+I'm **Custard**. I turn data into useful products and make little worlds with code.
 
-### A little about me
+🎓 **Bachelor's & Master's:** Data Science &nbsp;·&nbsp; 🧠 **PhD Year 0:** Artificial Intelligence
 
-I'm **Custard**. I build web tools, explore data and AI, and make little worlds with code.
+<p align="center"><img src="./assets/workshop-divider.svg" width="100%" alt="A little Custard mascot between mint and lavender stars." /></p>
 
-- 🎓 **Bachelor's & Master's:** Data Science
-- 🧠 **PhD Year 0:** Artificial Intelligence
-- 🛠️ **On my workbench:** useful interfaces, open-data projects, and research tools
-- 🎮 **Creative side quests:** game tools, pixel worlds, and Minecraft mods
+### Selected projects
 
-### My toolkit
-
-<p>
-  <img src="./assets/skill-icons/python.svg" width="48" height="48" alt="Python" title="Python" />
-  <img src="./assets/skill-icons/r.svg" width="48" height="48" alt="R" title="R" />
-  <img src="./assets/skill-icons/postgresql.svg" width="48" height="48" alt="PostgreSQL" title="PostgreSQL" />
-  <img src="./assets/skill-icons/typescript.svg" width="48" height="48" alt="TypeScript" title="TypeScript" />
-  <img src="./assets/skill-icons/react.svg" width="48" height="48" alt="React" title="React" />
-  <img src="./assets/skill-icons/nextjs.svg" width="48" height="48" alt="Next.js" title="Next.js" />
-  <img src="./assets/skill-icons/java.svg" width="48" height="48" alt="Java" title="Java" />
-  <img src="./assets/skill-icons/cloudflare.svg" width="48" height="48" alt="Cloudflare" title="Cloudflare" />
-  <img src="./assets/skill-icons/supabase.svg" width="48" height="48" alt="Supabase" title="Supabase" />
-</p>
-
-Python · R · PostgreSQL · TypeScript · React · Next.js · Java · Cloudflare · Supabase
-
-### Things I've been building
+A few things I've been building, from everyday tools to creative spaces.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Muguett-DBY/HireWay"><img src="./assets/hireway.svg" width="100%" alt="HireWay — Career exploration powered by Australian open labour-market data. React, TypeScript, Cloudflare." /></a>
-      <p><a href="https://github.com/Muguett-DBY/HireWay">Source code</a> &nbsp;·&nbsp; <a href="https://hireway.custard.top">Explore HireWay ↗</a></p>
+      <h3><a href="https://github.com/Muguett-DBY/HireWay">HireWay</a></h3>
+      <a href="https://hireway.custard.top"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/projects/hireway-home.png" /><img src="./assets/projects/hireway-demo.gif" width="100%" alt="HireWay&#x27;s public landing page and three-step introduction" /></picture></a>
+      <p>Australian career exploration, starting with your education and skills.</p>
+      <p><a href="https://hireway.custard.top"><strong>Explore HireWay ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Muguett-DBY/HireWay">Source</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Muguett-DBY/CalmJourney"><img src="./assets/calmjourney.svg" width="100%" alt="CalmJourney — Finding quieter public spaces with pedestrian crowd insights. JavaScript, open data, Supabase." /></a>
-      <p><a href="https://github.com/Muguett-DBY/CalmJourney">Source code</a> &nbsp;·&nbsp; <a href="https://calmjourney.custard.top">Explore CalmJourney ↗</a></p>
+      <h3><a href="https://github.com/Muguett-DBY/CalmJourney">CalmJourney</a></h3>
+      <a href="https://calmjourney.custard.top"><img src="./assets/projects/calmjourney-home.png" width="100%" alt="CalmJourney&#x27;s public homepage" /></a>
+      <p>A city-travel project about quieter spaces and crowd insights.</p>
+      <p><a href="https://calmjourney.custard.top"><strong>Visit website ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Muguett-DBY/CalmJourney">Source</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Muguett-DBY/RocoDex"><img src="./assets/rocodex.svg" width="100%" alt="Custard Web — Personal homepage and engineering notes, with RocoDex in the same deployment. Next.js, TypeScript, Cloudflare." /></a>
-      <p><a href="https://github.com/Muguett-DBY/RocoDex">Source code</a> &nbsp;·&nbsp; <a href="https://custard.top">Personal website ↗</a></p>
+      <h3><a href="https://github.com/Muguett-DBY/RocoDex">Custard Web</a></h3>
+      <a href="https://custard.top/en"><img src="./assets/projects/custard-work.png" width="100%" alt="The English selected-work section of Custard&#x27;s personal website" /></a>
+      <p>My work, engineering notes, and experiments in one home.</p>
+      <p><a href="https://custard.top/en"><strong>Visit my website ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Muguett-DBY/RocoDex">Source</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Muguett-DBY/veilreach-mod"><img src="./assets/veilreach.svg" width="100%" alt="Veilreach — A Minecraft adventure-dimension prototype with a moonlit wilderness. Java, Fabric, world-building." /></a>
-      <p><a href="https://github.com/Muguett-DBY/veilreach-mod">Explore the prototype ↗</a></p>
+      <h3><a href="https://github.com/Muguett-DBY/naihuangbao-photography">Naihuangbao Photography</a></h3>
+      <a href="https://shoot.custard.top"><img src="./assets/projects/photography-home.png" width="100%" alt="Naihuangbao Photography&#x27;s public English homepage" /></a>
+      <p>A visual home for portraits, galleries, and booking information.</p>
+      <p><a href="https://shoot.custard.top"><strong>Browse the gallery ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Muguett-DBY/naihuangbao-photography">Source</a></p>
     </td>
   </tr>
 </table>
 
-### My GitHub workshop
+<sub>Real public website captures · 11 Oct 2026. The HireWay animation shows its landing page; a still image is available for reduced-motion preferences.</sub>
+
+🎮 **A little world on the side:** [Veilreach](https://github.com/Muguett-DBY/veilreach-mod), my Minecraft adventure-dimension prototype.
+
+### Tools I reach for
+
+<p>
+  <img src="./assets/skill-icons/python.svg" width="42" height="42" alt="Python" title="Python" />
+  <img src="./assets/skill-icons/r.svg" width="42" height="42" alt="R" title="R" />
+  <img src="./assets/skill-icons/postgresql.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL" />
+  <img src="./assets/skill-icons/typescript.svg" width="42" height="42" alt="TypeScript" title="TypeScript" />
+  <img src="./assets/skill-icons/react.svg" width="42" height="42" alt="React" title="React" />
+  <img src="./assets/skill-icons/nextjs.svg" width="42" height="42" alt="Next.js" title="Next.js" />
+  <img src="./assets/skill-icons/java.svg" width="42" height="42" alt="Java" title="Java" />
+  <img src="./assets/skill-icons/cloudflare.svg" width="42" height="42" alt="Cloudflare" title="Cloudflare" />
+  <img src="./assets/skill-icons/supabase.svg" width="42" height="42" alt="Supabase" title="Supabase" />
+</p>
+
+Data & AI · Web products · Creative experiments
+
+### A little city, built one commit at a time
 
 <p align="center">
-  <img src="./assets/github-stats.svg" width="360" alt="GitHub statistics: stars, commits and pull requests from public activity." />
+  <img src="./profile-3d-contrib/custard-city.svg" width="100%" alt="My public GitHub contribution calendar, shown as a mint and lavender 3D city." />
+</p>
+
+<sub>Public GitHub activity · Generated <!-- city-date -->2026-10-11<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
+
+<details>
+  <summary>More from my GitHub workshop: stats & a contribution arcade</summary>
+
+<p align="center">
+  <img src="./assets/github-stats.svg" width="360" alt="GitHub statistics from public activity." />
   <img src="./assets/top-languages.svg" width="360" alt="Language distribution across public repositories." />
 </p>
 
-<sub>Cards generated on <!-- cards-date -->2026-10-10<!-- /cards-date -->. Public GitHub data; language shares describe repository code, not skill levels.</sub>
-
-### A little contribution arcade
+<sub>Cards generated on <!-- cards-date -->2026-10-10<!-- /cards-date -->. Language shares describe repository code, not skill levels.</sub>
 
 <p align="center">
-  <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my contribution calendar, with mint contribution squares." />
+  <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my public contribution calendar." />
 </p>
 
-<sub>My contribution calendar, reimagined by Snake. Snapshot generated on <!-- snake-date -->2026-10-10<!-- /snake-date -->.</sub>
+<sub>Snake snapshot generated on <!-- snake-date -->2026-10-10<!-- /snake-date -->.</sub>
 
-### Explore further
+</details>
 
-Explore [my repositories](https://github.com/Muguett-DBY?tab=repositories). Have an idea or found a bug? Open an issue in the project.
+### Keep exploring
 
-<p align="center">
-  <img src="./assets/capsule-footer.svg" width="100%" alt="See you in the next little world. Mint and lavender gradient waves." />
-</p>
+[Personal website](https://custard.top) · [Engineering notes](https://custard.top/en/notes) · [All repositories](https://github.com/Muguett-DBY?tab=repositories)
+
+Have an idea or found a bug? Open an issue in the project.
+
+<p align="center"><img src="./assets/workshop-footer.svg" width="100%" alt="See you in the next little world. Data, code, and a little curiosity." /></p>
 
 <details>
   <summary>Made with a little help from open source</summary>
 
-Technology icons by [Skill Icons](https://github.com/tandpfun/skill-icons). Animated text by [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg). Statistics by [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats). Contribution animation by [Snake](https://github.com/Platane/snk). Gradient waves by [Capsule Render](https://github.com/kyechan99/capsule-render). See [credits and license notices](./CREDITS.md).
+Technology icons by [Skill Icons](https://github.com/tandpfun/skill-icons). Contribution city by [GitHub Profile 3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib). Additional artwork uses [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats), [Snake](https://github.com/Platane/snk), [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg), and [Capsule Render](https://github.com/kyechan99/capsule-render). See [credits and license notices](./CREDITS.md).
 
 </details>
 

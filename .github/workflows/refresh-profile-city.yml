@@ -27,19 +27,25 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          import re
           import xml.etree.ElementTree as ET
           path = Path('profile-3d-contrib/custard-city.svg')
           root = ET.parse(path).getroot()
           assert root.tag == '{http://www.w3.org/2000/svg}svg'
           assert path.stat().st_size < 5 * 1024 * 1024
           assert not any(node.tag.rsplit('}', 1)[-1] in {'script', 'foreignObject'} for node in root.iter())
+          readme = Path('README.md')
+          date = datetime.now(ZoneInfo('Australia/Sydney')).date().isoformat()
+          readme.write_text(re.sub(r'<!-- city-date -->.*?<!-- /city-date -->', f'<!-- city-date -->{date}<!-- /city-date -->', readme.read_text(encoding='utf-8')), encoding='utf-8')
           print('Contribution city is a valid, self-contained SVG.')
           PY
       - name: Publish contribution city
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add profile-3d-contrib/custard-city.svg
+          git add profile-3d-contrib/custard-city.svg README.md
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh public contribution city'
             git push

@@ -69,3 +69,20 @@ account permission is required. This workflow also runs only when requested.
 
 The custard astronaut banner is an AI-generated illustration made for this profile.
 The project cards, footer, and optional terminal GIF were created for this profile.
+
+The pixel mascot in `assets/workshop-divider.svg` and `assets/workshop-footer.svg`
+is original SVG artwork made for this profile. Both decorations support light
+and dark colour schemes.
+
+## Public project previews
+
+The images in `assets/projects/` are real browser captures made on 11 October
+2026 from HireWay, CalmJourney, the English selected-work section at custard.top,
+and Naihuangbao Photography. `hireway-demo.gif` combines the public HireWay
+landing page and its three-step introduction. It does not show a saved user
+profile or imply that the illustrative career card is a real personal result.
+A still image is served for reduced-motion preferences.
+
+The captures retain the rights and licenses of the depicted projects and media.
+This profile's code license does not relicense photographs, third-party logos,
+or other embedded artwork.
