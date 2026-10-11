@@ -30,9 +30,9 @@ A few things I've been building, from everyday tools to creative spaces.
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Muguett-DBY/CalmJourney">CalmJourney</a></h3>
-      <a href="https://calmjourney.custard.top"><img src="./assets/projects/calmjourney-home.png" width="100%" alt="CalmJourney&#x27;s public homepage" /></a>
-      <p>A city-travel project about quieter spaces and crowd insights.</p>
-      <p><a href="https://calmjourney.custard.top"><strong>Visit website ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Muguett-DBY/CalmJourney">Source</a></p>
+      <a href="https://github.com/Muguett-DBY/CalmJourney"><img src="./assets/projects/calmjourney-home.png" width="100%" alt="A preview of the archived CalmJourney project" /></a>
+      <p>An archived city-travel project about quieter spaces and crowd insights.</p>
+      <p><a href="https://github.com/Muguett-DBY/CalmJourney"><strong>Explore the archive ↗</strong></a> &nbsp;·&nbsp; Backend paused</p>
     </td>
   </tr>
   <tr>
