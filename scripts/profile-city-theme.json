@@ -1,0 +1,21 @@
+{
+  "type": "normal",
+  "fileName": "custard-city.svg",
+  "backgroundColor": "#f7f8fc",
+  "foregroundColor": "#273449",
+  "strongColor": "#665396",
+  "weakColor": "#6a7688",
+  "radarColor": "#51b9a0",
+  "growingAnimation": false,
+  "contribColors": ["#e7eaf2", "#c7e7dd", "#95d4c3", "#62bea6", "#35987e"],
+  "darkMode": {
+    "type": "normal",
+    "backgroundColor": "#11182b",
+    "foregroundColor": "#e9e7f3",
+    "strongColor": "#bca7ff",
+    "weakColor": "#a6aec4",
+    "radarColor": "#68efd0",
+    "growingAnimation": false,
+    "contribColors": ["#243049", "#31594f", "#3d8579", "#56baa5", "#68efd0"]
+  }
+}

@@ -44,6 +44,15 @@ credit does not claim an MIT license for Snake.
 [kyechan99/capsule-render](https://github.com/kyechan99/capsule-render).
 MIT license: [`licenses/capsule-render-MIT.txt`](./licenses/capsule-render-MIT.txt).
 
+## GitHub Profile 3D Contrib
+
+The contribution city is generated with
+[yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib),
+release `v0.9.3`, pinned to `7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39`.
+Copyright (c) 2021 SATO Yoshiyuki. MIT license notice:
+[`licenses/github-profile-3d-contrib-MIT.txt`](./licenses/github-profile-3d-contrib-MIT.txt).
+The mint and lavender theme is defined in `scripts/profile-city-theme.json`.
+
 ## Refreshing data
 
 Use **Actions → Refresh profile artwork → Run workflow** to regenerate the
@@ -51,6 +60,10 @@ statistics, language chart and contribution animation. It runs only when
 requested, with no scheduled jobs and no personal access token secrets.
 All assets are committed locally to this repository. A failed service response
 stops the workflow before publishing, leaving the previous artwork intact.
+
+Use **Actions → Refresh contribution city → Run workflow** for the 3D calendar.
+It uses the repository's built-in `GITHUB_TOKEN`; no personal token or extra
+account permission is required. This workflow also runs only when requested.
 
 ## Original assets
 
