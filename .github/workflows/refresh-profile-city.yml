@@ -2,6 +2,10 @@ name: Refresh contribution city
 
 on:
   workflow_dispatch:
+  schedule:
+    # Refresh once a day, away from the busiest minute at the top of the hour.
+    - cron: '17 9 * * *'
+      timezone: 'Australia/Sydney'
 
 permissions:
   contents: write

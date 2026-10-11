@@ -61,9 +61,11 @@ requested, with no scheduled jobs and no personal access token secrets.
 All assets are committed locally to this repository. A failed service response
 stops the workflow before publishing, leaving the previous artwork intact.
 
-Use **Actions → Refresh contribution city → Run workflow** for the 3D calendar.
+The 3D calendar refreshes automatically every day at 09:17 in `Australia/Sydney`,
+including daylight saving time changes. GitHub may delay scheduled runs.
+Use **Actions → Refresh contribution city → Run workflow** for an immediate refresh.
 It uses the repository's built-in `GITHUB_TOKEN`; no personal token or extra
-account permission is required. This workflow also runs only when requested.
+account permission is required.
 
 ## Original assets
 
