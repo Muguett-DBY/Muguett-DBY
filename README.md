@@ -51,7 +51,7 @@ A few things I've been building, from everyday tools to creative spaces.
   </tr>
 </table>
 
-<sub>Real public website captures · 11 Oct 2026. The HireWay animation shows its landing page; a still image is available for reduced-motion preferences.</sub>
+<sub>Real public website previews · 11 Oct 2026.</sub>
 
 🎮 **A little world on the side:** [Veilreach](https://github.com/Muguett-DBY/veilreach-mod), my Minecraft adventure-dimension prototype.
 
