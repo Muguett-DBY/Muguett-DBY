@@ -10,6 +10,12 @@
   <a href="https://custard.top/en/notes">Read my notes</a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/Muguett-DBY?tab=repositories&amp;sort=stargazers"><img src="./assets/total-stars.svg" height="38" alt="Total stars received across my public repositories. Updated daily." /></a>
+  <br />
+  <sub>Across all my public repositories · Updated daily</sub>
+</p>
+
 I'm **Custard**. I turn data into useful products and make little worlds with code.
 
 🎓 **Bachelor's & Master's:** Data Science &nbsp;·&nbsp; 🧠 **PhD Year 0:** Artificial Intelligence
