@@ -83,7 +83,7 @@ Data & AI · Web products · Creative experiments
   <img src="./profile-3d-contrib/custard-city.svg" width="100%" alt="My public GitHub contribution calendar, shown as a mint and lavender 3D city." />
 </p>
 
-<sub>Public GitHub activity · Updated daily · Generated <!-- city-date -->2026-10-13<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
+<sub>Public GitHub activity · Updated daily · Generated <!-- city-date -->2026-10-14<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
 
 <details>
   <summary>More from my GitHub workshop: stats & a contribution arcade</summary>
