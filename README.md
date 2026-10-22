@@ -22,6 +22,7 @@ I'm **Custard**. I turn data into useful products and make little worlds with co
 
 <!-- earned-achievements:start -->
 <p align="center">
+  <a href="https://github.com/Muguett-DBY?achievement=quickdraw&amp;tab=achievements"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="80" height="80" alt="Quickdraw" title="Quickdraw" /></a>
   <a href="https://github.com/Muguett-DBY?achievement=pull-shark&amp;tab=achievements"><img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="80" height="80" alt="Pull Shark (Bronze)" title="Pull Shark (Bronze)" /></a>
   <a href="https://github.com/Muguett-DBY?achievement=yolo&amp;tab=achievements"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="80" height="80" alt="YOLO" title="YOLO" /></a>
 </p>
