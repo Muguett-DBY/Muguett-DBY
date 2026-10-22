@@ -20,6 +20,14 @@ I'm **Custard**. I turn data into useful products and make little worlds with co
 
 🎓 **Bachelor's & Master's:** Data Science &nbsp;·&nbsp; 🧠 **PhD Year 0:** Artificial Intelligence
 
+<!-- earned-achievements:start -->
+<p align="center">
+  <a href="https://github.com/Muguett-DBY?achievement=pull-shark&amp;tab=achievements"><img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="80" height="80" alt="Pull Shark (Bronze)" title="Pull Shark (Bronze)" /></a>
+  <a href="https://github.com/Muguett-DBY?achievement=yolo&amp;tab=achievements"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="80" height="80" alt="YOLO" title="YOLO" /></a>
+</p>
+<p align="center"><sub><a href="https://github.com/Muguett-DBY?tab=achievements">Earned on GitHub</a> · Updated daily</sub></p>
+<!-- earned-achievements:end -->
+
 <p align="center"><img src="./assets/workshop-divider.svg" width="100%" alt="A little Custard mascot between mint and lavender stars." /></p>
 
 ### Selected projects

@@ -15,3 +15,5 @@ jobs:
           python-version: '3.13'
       - name: Check tracked artifacts and large files
         run: python scripts/check_repository_hygiene.py
+      - name: Check achievement showcase parsing
+        run: python -m unittest discover -s scripts -p 'test_*.py' -v
