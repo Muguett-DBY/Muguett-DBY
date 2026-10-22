@@ -29,6 +29,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+      - name: Refresh earned achievements
+        run: python scripts/refresh-achievements.py
+        env:
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@a041d6c27ba561a39f5be9c26a784812765e434b
         with:

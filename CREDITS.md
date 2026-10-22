@@ -80,6 +80,15 @@ in `Australia/Sydney`, and either refresh workflow can update it on demand.
 It uses GitHub's API directly and needs no third-party statistics service or
 personal token secret.
 
+The earned-achievements showcase links to native badges already visible on this
+account's public GitHub profile. `scripts/refresh-achievements.py` reads GitHub's
+native achievement hovercards, removes duplicate sidebar entries, and updates
+only the marked README block. It neither grants achievements nor displays
+unearned badges. The badge images are served by GitHub and remain GitHub's
+artwork; they are not relicensed by this repository. Both refresh workflows
+update the showcase, and a failed or changed profile response preserves the
+previous version.
+
 ## Original assets
 
 The custard astronaut banner is an AI-generated illustration made for this profile.
