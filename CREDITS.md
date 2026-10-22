@@ -55,6 +55,9 @@ The mint and lavender theme is defined in `scripts/profile-city-theme.json`.
 
 ## Refreshing data
 
+To adapt the city theme and helper scripts for your own account, see the
+[profile refresh setup guide](docs/REUSE_PROFILE.md), including reuse terms.
+
 Use **Actions → Refresh profile artwork → Run workflow** to regenerate the
 statistics, language chart and contribution animation. It runs only when
 requested, with no scheduled jobs and no personal access token secrets.
