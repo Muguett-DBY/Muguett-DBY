@@ -14,11 +14,11 @@ BASE = {
     'border_radius': '12', 'disable_animations': 'true',
 }
 URLS = {
-    'github-stats.svg': 'https://github-readme-stats.vercel.app/api?' + urlencode(BASE | {
+    'github-stats.svg': 'https://github-stats-extended.vercel.app/api?' + urlencode(BASE | {
         'show_icons': 'true', 'hide_rank': 'true', 'hide': 'issues,contribs',
         'custom_title': 'My GitHub workshop', 'card_width': '460',
     }),
-    'top-languages.svg': 'https://github-readme-stats.vercel.app/api/top-langs/?' + urlencode(BASE | {
+    'top-languages.svg': 'https://github-stats-extended.vercel.app/api/top-langs/?' + urlencode(BASE | {
         'layout': 'compact', 'langs_count': '6', 'card_width': '460',
         'custom_title': 'Languages across my repos',
     }),

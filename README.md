@@ -123,7 +123,7 @@ Have an idea or found a bug? Open an issue in the project.
 <details>
   <summary>Made with a little help from open source</summary>
 
-Technology icons by [Skill Icons](https://github.com/tandpfun/skill-icons). Contribution city by [GitHub Profile 3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib). Additional artwork uses [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats), [Snake](https://github.com/Platane/snk), [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg), and [Capsule Render](https://github.com/kyechan99/capsule-render). See [credits and license notices](./CREDITS.md).
+Technology icons by [Skill Icons](https://github.com/tandpfun/skill-icons). Contribution city by [GitHub Profile 3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib). Additional artwork uses [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended), [Snake](https://github.com/Platane/snk), [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg), and [Capsule Render](https://github.com/kyechan99/capsule-render). See [credits and license notices](./CREDITS.md).
 
 </details>
 
