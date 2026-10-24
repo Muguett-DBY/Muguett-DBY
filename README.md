@@ -97,12 +97,13 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
 
 ### Shipped upstream
 
-Recent fixes merged into [pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard), a SQLAlchemy query diagnostics tool.
+Recent fixes and shared contributions merged upstream.
 
-| Contribution | Release |
-| --- | --- |
-| [Keep completed query logs' timings stable](https://github.com/MaciejZiel/pytest-queryguard/pull/202) | [0.4.1](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.4.1) |
-| [Attribute WSGI iteration and cleanup queries to the right request](https://github.com/MaciejZiel/pytest-queryguard/pull/203) | [0.5.0rc1](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.5.0rc1) · experimental |
+| Project | Contribution | Status |
+| --- | --- | --- |
+| [Pillow](https://github.com/python-pillow/Pillow) | [Keep normal and docs-only CI check names consistent](https://github.com/python-pillow/Pillow/pull/10300) · co-author | Merged |
+| [pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard) | [Keep completed query logs' timings stable](https://github.com/MaciejZiel/pytest-queryguard/pull/202) | [0.4.1](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.4.1) |
+| [pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard) | [Attribute WSGI iteration and cleanup queries to the right request](https://github.com/MaciejZiel/pytest-queryguard/pull/203) | [0.5.0rc1](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.5.0rc1) · experimental |
 
 ### A little city, built one commit at a time
 
