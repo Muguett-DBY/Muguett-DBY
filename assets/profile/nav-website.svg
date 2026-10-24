@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="38" viewBox="0 0 132 38" role="img" aria-labelledby="title">
+  <title id="title">Website</title><style>.surface{fill:#68efd0;stroke:#68efd0}.ink{fill:#102b2b}.icon{stroke:#71609c}@media(prefers-color-scheme:dark){.icon{stroke:#bca7ff}}.icon{stroke:#102b2b}</style>
+  <rect class="surface" x="1" y="1" width="130" height="36" rx="11"/>
+  <g class="icon" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="23" cy="19" r="7"/><path d="M16 19h14m-7-7c4 3 4 11 0 14m0-14c-4 3-4 11 0 14"/></g>
+  <text class="ink" x="42" y="24" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">Website</text>
+</svg>

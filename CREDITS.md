@@ -102,6 +102,12 @@ The pixel mascot in `assets/workshop-divider.svg` and `assets/workshop-footer.sv
 is original SVG artwork made for this profile. Both decorations support light
 and dark colour schemes.
 
+The self-introduction cards and navigation buttons in `assets/profile/` are
+original SVG artwork for the personal profile. The cards provide separate
+desktop and mobile layouts, adapt to light and dark colour schemes, and stop
+their decorative star animation when reduced motion is requested. Their
+education labels intentionally omit institution names.
+
 ## Public project previews
 
 The website images in `assets/projects/` are real browser captures. HireWay,

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="38" viewBox="0 0 132 38" role="img" aria-labelledby="title">
+  <title id="title">Open source</title><style>.surface{fill:#f7f8fc;stroke:#dedfeb}.ink{fill:#494162}@media(prefers-color-scheme:dark){.surface{fill:#192238;stroke:#35415c}.ink{fill:#ddd4fa}}.icon{stroke:#71609c}@media(prefers-color-scheme:dark){.icon{stroke:#bca7ff}}</style>
+  <rect class="surface" x="1" y="1" width="130" height="36" rx="11"/>
+  <g class="icon" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="m20 13-6 6 6 6m9-12 6 6-6 6m-4-14-4 18"/></g>
+  <text class="ink" x="43" y="24" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Open source</text>
+</svg>
