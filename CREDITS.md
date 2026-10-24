@@ -104,12 +104,18 @@ and dark colour schemes.
 
 ## Public project previews
 
-The images in `assets/projects/` are real browser captures made on 11 October
-2026 from HireWay, CalmJourney, the English selected-work section at custard.top,
-and Naihuangbao Photography. `hireway-demo.gif` combines the public HireWay
+The website images in `assets/projects/` are real browser captures. HireWay,
+CalmJourney and the English selected-work section at custard.top were captured
+on 11 October 2026. The English Naihuangbao Photography homepage was refreshed
+on 25 October 2026 (Australia/Sydney). `hireway-demo.gif` combines the public HireWay
 landing page and its three-step introduction. It does not show a saved user
 profile or imply that the illustrative career card is a real personal result.
 A still image is served for reduced-motion preferences.
+
+`veilreach-world.svg` is original concept artwork created for this profile,
+inspired by the prototype's moonlit-portal setting. It is an illustration,
+not an in-game screenshot. Its gentle star animation respects reduced-motion
+preferences.
 
 The captures retain the rights and licenses of the depicted projects and media.
 This profile's code license does not relicense photographs, third-party logos,
