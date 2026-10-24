@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="304" viewBox="0 0 1120 304" role="img" aria-labelledby="title description">
+  <title id="title">Hello, I'm Custard</title>
+  <desc id="description">I build useful products and little worlds with code. Bachelor's and Master's in Data Science; PhD Year 0 in Artificial Intelligence.</desc>
+  <style>
+    .surface{fill:#f7f8fc}.edge{stroke:#e1e0ed}.ink{fill:#252d47}.muted{fill:#68718a}.mint{fill:#247965}.lavender{fill:#71609c}.card{fill:#fff}.star{fill:#bca7ff}
+    @media(prefers-color-scheme:dark){.surface{fill:#11182b}.edge{stroke:#303950}.ink{fill:#f2effb}.muted{fill:#b1bad0}.mint{fill:#68efd0}.lavender{fill:#bca7ff}.card{fill:#192238}}
+    @media(prefers-reduced-motion:no-preference){.twinkle{animation:twinkle 6s ease-in-out infinite}@keyframes twinkle{0%,100%{opacity:.35}50%{opacity:1}}}
+  </style>
+  <rect class="surface edge" x="1" y="1" width="1118" height="302" rx="20" fill="none"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <g font-family="Consolas,monospace" font-size="14" letter-spacing="2">
+      <circle cx="34" cy="30" r="4" fill="#efa1a2"/><circle cx="49" cy="30" r="4" fill="#ffd783"/><circle cx="64" cy="30" r="4" fill="#68c6ac"/>
+      <text class="muted" x="84" y="35">HELLO / I'M CUSTARD</text>
+    </g>
+    <text class="ink" x="36" y="112" font-size="42" font-weight="700">A little data.</text>
+    <text class="ink" x="36" y="164" font-size="42" font-weight="700">A little imagination.</text>
+    <text class="muted" x="38" y="217" font-size="22">Building useful products</text>
+    <text class="muted" x="38" y="247" font-size="22">and little worlds with code.</text>
+    <rect class="card edge" x="660" y="58" width="424" height="94" rx="14"/>
+    <path d="M683 80v49" stroke="#68c6ac" stroke-width="3" stroke-linecap="round"/>
+    <text class="mint" x="704" y="88" font-family="Consolas,monospace" font-size="15" letter-spacing="1.5">DATA SCIENCE</text>
+    <text class="ink" x="704" y="122" font-size="25" font-weight="600">Bachelor's &amp; Master's</text>
+    <rect class="card edge" x="660" y="168" width="424" height="94" rx="14"/>
+    <path d="M683 190v49" stroke="#bca7ff" stroke-width="3" stroke-linecap="round"/>
+    <text class="lavender" x="704" y="198" font-family="Consolas,monospace" font-size="15" letter-spacing="1">ARTIFICIAL INTELLIGENCE</text>
+    <text class="ink" x="704" y="232" font-size="25" font-weight="600">PhD · Year 0</text>
+  </g>
+  <path class="star twinkle" d="m576 70 4 12 12 4-12 4-4 12-4-12-12-4 12-4zm40 130 3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/>
+  <g transform="translate(542 216) scale(1.1)" shape-rendering="crispEdges">
+    <path d="M8 8h6V4h12v4h6v6h4v18h-4v6H8v-6H4V14h4z" fill="#ffd783"/>
+    <path d="M8 14h4v-4h8v4h-8v6H8z" fill="#fff0bf"/>
+    <path d="M22 8h4v6h4v4h-4v-4h-4z" fill="#e6ad60"/>
+    <path d="M12 24h3v4h-3zm13 0h3v4h-3z" fill="#29304a"/>
+    <path d="M17 29h6v3h-6z" fill="#986556"/>
+    <path d="M8 29h4v3H8zm20 0h4v3h-4z" fill="#efa1a2"/>
+  </g>
+</svg>

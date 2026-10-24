@@ -3,11 +3,31 @@
 </p>
 
 <p align="center">
-  <a href="https://custard.top"><strong>Visit my website ↗</strong></a>
-  &nbsp; · &nbsp;
-  <a href="#selected-projects">Explore my projects ↓</a>
-  &nbsp; · &nbsp;
-  <a href="#shipped-upstream">Open-source contributions ↓</a>
+  <a href="https://custard.top"><img src="./assets/profile/nav-website.svg" width="132" height="38" alt="Visit my website" /></a>
+  <a href="#selected-projects"><img src="./assets/profile/nav-projects.svg" width="132" height="38" alt="Explore my projects" /></a>
+  <a href="https://custard.top/en/notes"><img src="./assets/profile/nav-notes.svg" width="132" height="38" alt="Read my notes" /></a>
+  <a href="#shipped-upstream"><img src="./assets/profile/nav-opensource.svg" width="132" height="38" alt="Open-source contributions" /></a>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/profile/intro-mobile.svg" />
+    <img src="./assets/profile/intro.svg" width="100%" alt="I'm Custard. I build useful products and little worlds with code. Bachelor's and Master's in Data Science; PhD Year 0 in Artificial Intelligence." />
+  </picture>
+</p>
+
+<p align="center"><strong>Data &amp; AI</strong> &nbsp;·&nbsp; Web products &nbsp;·&nbsp; Creative experiments</p>
+
+<p align="center">
+  <img src="./assets/skill-icons/python.svg" width="42" height="42" alt="Python" title="Python" />
+  <img src="./assets/skill-icons/r.svg" width="42" height="42" alt="R" title="R" />
+  <img src="./assets/skill-icons/postgresql.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL" />
+  <img src="./assets/skill-icons/typescript.svg" width="42" height="42" alt="TypeScript" title="TypeScript" />
+  <img src="./assets/skill-icons/react.svg" width="42" height="42" alt="React" title="React" />
+  <img src="./assets/skill-icons/nextjs.svg" width="42" height="42" alt="Next.js" title="Next.js" />
+  <img src="./assets/skill-icons/java.svg" width="42" height="42" alt="Java" title="Java" />
+  <img src="./assets/skill-icons/cloudflare.svg" width="42" height="42" alt="Cloudflare" title="Cloudflare" />
+  <img src="./assets/skill-icons/supabase.svg" width="42" height="42" alt="Supabase" title="Supabase" />
 </p>
 
 <p align="center">
@@ -15,10 +35,6 @@
   <br />
   <sub>Across all my public repositories · Updated daily</sub>
 </p>
-
-I'm **Custard**. I turn data into useful products and make little worlds with code.
-
-🎓 **Bachelor's & Master's:** Data Science &nbsp;·&nbsp; 🧠 **PhD Year 0:** Artificial Intelligence
 
 <!-- earned-achievements:start -->
 <p align="center">
@@ -87,22 +103,6 @@ Recent fixes merged into [pytest-queryguard](https://github.com/MaciejZiel/pytes
 | --- | --- |
 | [Keep completed query logs' timings stable](https://github.com/MaciejZiel/pytest-queryguard/pull/202) | [0.4.1](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.4.1) |
 | [Attribute WSGI iteration and cleanup queries to the right request](https://github.com/MaciejZiel/pytest-queryguard/pull/203) | [0.5.0rc1](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.5.0rc1) · experimental |
-
-### Tools I reach for
-
-<p>
-  <img src="./assets/skill-icons/python.svg" width="42" height="42" alt="Python" title="Python" />
-  <img src="./assets/skill-icons/r.svg" width="42" height="42" alt="R" title="R" />
-  <img src="./assets/skill-icons/postgresql.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL" />
-  <img src="./assets/skill-icons/typescript.svg" width="42" height="42" alt="TypeScript" title="TypeScript" />
-  <img src="./assets/skill-icons/react.svg" width="42" height="42" alt="React" title="React" />
-  <img src="./assets/skill-icons/nextjs.svg" width="42" height="42" alt="Next.js" title="Next.js" />
-  <img src="./assets/skill-icons/java.svg" width="42" height="42" alt="Java" title="Java" />
-  <img src="./assets/skill-icons/cloudflare.svg" width="42" height="42" alt="Cloudflare" title="Cloudflare" />
-  <img src="./assets/skill-icons/supabase.svg" width="42" height="42" alt="Supabase" title="Supabase" />
-</p>
-
-Data & AI · Web products · Creative experiments
 
 ### A little city, built one commit at a time
 
