@@ -70,6 +70,15 @@ A few things I've been building, from everyday tools to creative spaces.
 
 🎮 **A little world on the side:** [Veilreach](https://github.com/Muguett-DBY/veilreach-mod), my Minecraft adventure-dimension prototype.
 
+### Shipped upstream
+
+Recent fixes merged into [pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard), a SQLAlchemy query diagnostics tool.
+
+| Contribution | Release |
+| --- | --- |
+| [Keep completed query logs' timings stable](https://github.com/MaciejZiel/pytest-queryguard/pull/202) | [0.4.1](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.4.1) |
+| [Attribute WSGI iteration and cleanup queries to the right request](https://github.com/MaciejZiel/pytest-queryguard/pull/203) | [0.5.0rc1](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.5.0rc1) · experimental |
+
 ### Tools I reach for
 
 <p>
