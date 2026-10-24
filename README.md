@@ -7,7 +7,7 @@
   &nbsp; · &nbsp;
   <a href="#selected-projects">Explore my projects ↓</a>
   &nbsp; · &nbsp;
-  <a href="https://custard.top/en/notes">Read my notes</a>
+  <a href="#shipped-upstream">Open-source contributions ↓</a>
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@ I'm **Custard**. I turn data into useful products and make little worlds with co
 
 ### Selected projects
 
-A few things I've been building, from everyday tools to creative spaces.
+Useful products, creative spaces, and a little world in progress.
 
 <table>
   <tr>
@@ -44,10 +44,10 @@ A few things I've been building, from everyday tools to creative spaces.
       <p><a href="https://hireway.custard.top"><strong>Explore HireWay ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Muguett-DBY/HireWay">Source</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Muguett-DBY/CalmJourney">CalmJourney</a></h3>
-      <a href="https://github.com/Muguett-DBY/CalmJourney"><img src="./assets/projects/calmjourney-home.png" width="100%" alt="A preview of the archived CalmJourney project" /></a>
-      <p>An archived city-travel project about quieter spaces and crowd insights.</p>
-      <p><a href="https://github.com/Muguett-DBY/CalmJourney"><strong>Explore the archive ↗</strong></a> &nbsp;·&nbsp; Backend paused</p>
+      <h3><a href="https://github.com/Muguett-DBY/naihuangbao-photography">Naihuangbao Photography</a></h3>
+      <a href="https://shoot.custard.top"><img src="./assets/projects/photography-home.png" width="100%" alt="The current English photography homepage, with a portrait gallery and booking links" /></a>
+      <p>A visual home for portraits, galleries, and booking information.</p>
+      <p><a href="https://shoot.custard.top"><strong>Browse the gallery ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Muguett-DBY/naihuangbao-photography">Source</a></p>
     </td>
   </tr>
   <tr>
@@ -58,17 +58,26 @@ A few things I've been building, from everyday tools to creative spaces.
       <p><a href="https://custard.top/en"><strong>Visit my website ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Muguett-DBY/RocoDex">Source</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Muguett-DBY/naihuangbao-photography">Naihuangbao Photography</a></h3>
-      <a href="https://shoot.custard.top"><img src="./assets/projects/photography-home.png" width="100%" alt="Naihuangbao Photography&#x27;s public English homepage" /></a>
-      <p>A visual home for portraits, galleries, and booking information.</p>
-      <p><a href="https://shoot.custard.top"><strong>Browse the gallery ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Muguett-DBY/naihuangbao-photography">Source</a></p>
+      <h3><a href="https://github.com/Muguett-DBY/veilreach-mod">Veilreach</a></h3>
+      <a href="https://github.com/Muguett-DBY/veilreach-mod"><img src="./assets/projects/veilreach-world.svg" width="100%" alt="An illustration of Veilreach's moonlit portal; concept artwork for a Minecraft prototype" /></a>
+      <p>A Minecraft dimension of silver fog, moonlit ruins, and star-altars.</p>
+      <p><a href="https://github.com/Muguett-DBY/veilreach-mod"><strong>Explore the prototype ↗</strong></a></p>
     </td>
   </tr>
 </table>
 
-<sub>Real public website previews · 11 Oct 2026.</sub>
+<sub>Website screenshots and original concept artwork · <a href="./CREDITS.md#public-project-previews">Preview details</a>.</sub>
 
-🎮 **A little world on the side:** [Veilreach](https://github.com/Muguett-DBY/veilreach-mod), my Minecraft adventure-dimension prototype.
+<details>
+  <summary>Earlier work: CalmJourney</summary>
+
+An archived city-travel project about quieter spaces and crowd insights. The source is kept for reference; the backend is paused.
+
+<a href="https://github.com/Muguett-DBY/CalmJourney"><img src="./assets/projects/calmjourney-home.png" width="560" alt="A historical preview of CalmJourney, whose backend is paused" /></a>
+
+[Explore the source archive ↗](https://github.com/Muguett-DBY/CalmJourney)
+
+</details>
 
 ### Shipped upstream
 

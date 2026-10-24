@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title description">
+  <title id="title">Veilreach — a little world in progress</title>
+  <desc id="description">Original concept artwork of a glowing portal beneath a crescent moon. A Minecraft dimension prototype, not an in-game screenshot.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#10172d"/><stop offset="1" stop-color="#30304d"/></linearGradient>
+    <linearGradient id="portal" x2="0" y2="1"><stop stop-color="#bca7ff" stop-opacity=".65"/><stop offset="1" stop-color="#68efd0" stop-opacity=".06"/></linearGradient>
+    <linearGradient id="mist"><stop stop-color="#a7b6da" stop-opacity="0"/><stop offset=".5" stop-color="#a7b6da" stop-opacity=".12"/><stop offset="1" stop-color="#a7b6da" stop-opacity="0"/></linearGradient>
+  </defs>
+  <style>
+    .star {fill:#d8d5ff}
+    @media (prefers-reduced-motion: no-preference) {
+      .twinkle {animation:twinkle 6s ease-in-out infinite}
+      @keyframes twinkle {0%,100% {opacity:.45} 50% {opacity:1}}
+    }
+  </style>
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <g class="star" opacity=".55">
+    <path d="M96 96h4v4h-4zm128 64h4v4h-4zm132-94h4v4h-4zm166 50h4v4h-4zm152-30h4v4h-4zm298 82h4v4h-4zm176-68h4v4h-4zm-74 190h4v4h-4zm-930 36h4v4h-4z"/>
+  </g>
+  <g class="twinkle" fill="#bca7ff">
+    <path d="m308 192 4 12 12 4-12 4-4 12-4-12-12-4 12-4zm708-12 4 12 12 4-12 4-4 12-4-12-12-4 12-4z"/>
+  </g>
+  <path d="M1050 72a56 56 0 1 0 56 77 48 48 0 0 1-56-77" fill="#f4e6bf"/>
+  <path d="M0 420h96v-36h80v-42h64v-44h56v44h80v58h96v-42h88v-40h64v40h72v44h104v-54h72v-46h64v46h64v50h80v-32h120v54h80v250H0z" fill="#242b43"/>
+  <path d="M0 514h80v-52h72v-48h64v48h80v36h88v-40h96v-46h80v46h96v44h88v-60h80v-28h80v28h72v50h112v-36h64v-40h64v40h64v52h64v212H0z" fill="#1a293c"/>
+  <g fill="#0f1d30">
+    <path d="M56 556v-96H32l40-64 40 64H88v96zm108 12V440h-24l40-64 40 64h-24v128zm864 8V432h-24l40-64 40 64h-24v144zm114 0V468h-24l40-64 40 64h-24v108z"/>
+  </g>
+  <rect x="0" y="510" width="1280" height="80" fill="url(#mist)"/>
+  <g shape-rendering="crispEdges">
+    <path d="M478 548V310h24v-48h32v-32h40v-22h132v22h40v32h32v48h24v238h-44V326h-24v-36h-36v-22H582v22h-36v36h-24v222z" fill="#6f7291"/>
+    <path d="M522 548V326h24v-36h36v-22h116v22h36v36h24v222z" fill="url(#portal)"/>
+    <path d="M522 548V326h24v-36h36v-22h116v22h36v36h24v222" fill="none" stroke="#bca7ff" stroke-width="6"/>
+    <path d="M478 358h44m-20-82 34 20m38-66 8 38m124-38-8 38m48 8-12 20m24 62h44M478 430h44m236 0h44M478 502h44m236 0h44" stroke="#424f6d" stroke-width="5"/>
+    <path d="M450 548h380v20H450zm-26 20h432v18H424z" fill="#53677a"/>
+    <path d="M430 548h30v-14h20v14h326v-14h22v14h26v8H430z" fill="#68b5a3"/>
+    <path d="M592 316h8v8h-8zm92 54h6v6h-6zm-100 64h8v8h-8zm76 64h6v6h-6z" fill="#a5ffe4"/>
+  </g>
+  <path d="M0 608c240-30 390-12 640-12s430-22 640 8v116H0z" fill="#101a2b"/>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <text x="640" y="644" fill="#f4f0ff" font-size="32" font-weight="700" letter-spacing="5">VEILREACH</text>
+    <text x="640" y="681" fill="#b2c3d8" font-size="16" letter-spacing="3">CONCEPT ART · MINECRAFT PROTOTYPE</text>
+  </g>
+</svg>
