@@ -103,6 +103,7 @@ Recent fixes and shared contributions merged upstream.
 
 | Project | Contribution | Status |
 | --- | --- | --- |
+| [Extrudo](https://github.com/zoltanf/extrudo) | [Check attachment limits before importing or copying projects](https://github.com/zoltanf/extrudo/pull/131) | Merged |
 | [Pillow](https://github.com/python-pillow/Pillow) | [Keep normal and docs-only CI check names consistent](https://github.com/python-pillow/Pillow/pull/10300) · co-author | Merged |
 | [pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard) | [Keep completed query logs' timings stable](https://github.com/MaciejZiel/pytest-queryguard/pull/202) | [0.4.1](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.4.1) |
 | [pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard) | [Attribute WSGI iteration and cleanup queries to the right request](https://github.com/MaciejZiel/pytest-queryguard/pull/203) | [0.5.0rc1](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.5.0rc1) · experimental |
