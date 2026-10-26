@@ -103,6 +103,8 @@ Recent fixes and shared contributions merged upstream.
 
 | Project | Contribution | Status |
 | --- | --- | --- |
+| [gh-achievements](https://github.com/nmloc/gh-achievements) | [Detect earned badges without counting README links](https://github.com/nmloc/gh-achievements/pull/6) | Merged |
+| [pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard) | [Serve panels under mounted ASGI paths](https://github.com/MaciejZiel/pytest-queryguard/pull/210) · [Preserve native WSGI file responses](https://github.com/MaciejZiel/pytest-queryguard/pull/211) | Merged · unreleased |
 | [Extrudo](https://github.com/zoltanf/extrudo) | [Check attachment limits before importing or copying projects](https://github.com/zoltanf/extrudo/pull/131) | Merged |
 | [Pillow](https://github.com/python-pillow/Pillow) | [Keep normal and docs-only CI check names consistent](https://github.com/python-pillow/Pillow/pull/10300) · co-author | Merged |
 | [pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard) | [Keep completed query logs' timings stable](https://github.com/MaciejZiel/pytest-queryguard/pull/202) | [0.4.1](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.4.1) |
