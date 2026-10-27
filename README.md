@@ -126,13 +126,13 @@ Recent fixes and shared contributions merged upstream.
   <img src="./assets/top-languages.svg" width="360" alt="Language distribution across public repositories." />
 </p>
 
-<sub>Cards generated on <!-- cards-date -->2026-10-25<!-- /cards-date -->. Language shares describe repository code, not skill levels.</sub>
+<sub>Cards generated on <!-- cards-date -->2026-10-28<!-- /cards-date -->. Language shares describe repository code, not skill levels.</sub>
 
 <p align="center">
   <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my public contribution calendar." />
 </p>
 
-<sub>Snake snapshot generated on <!-- snake-date -->2026-10-25<!-- /snake-date -->.</sub>
+<sub>Snake snapshot generated on <!-- snake-date -->2026-10-28<!-- /snake-date -->.</sub>
 
 </details>
 
