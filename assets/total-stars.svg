@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="236" height="38" viewBox="0 0 236 38" role="img" aria-labelledby="title description">
-  <title id="title">Total stars received: 44</title>
-  <desc id="description">Muguett-DBY has received 44 stars across 38 public repositories. Includes archived repositories and forks. Updated daily from GitHub.</desc>
+  <title id="title">Total stars received: 47</title>
+  <desc id="description">Muguett-DBY has received 47 stars across 41 public repositories. Includes archived repositories and forks. Updated daily from GitHub.</desc>
   <defs><clipPath id="rounded"><rect width="236" height="38" rx="12"/></clipPath></defs>
   <g clip-path="url(#rounded)">
     <rect width="236" height="38" fill="#11182b"/>
@@ -9,6 +9,6 @@
   <path d="m24 10 2.8 5.7 6.3.9-4.5 4.4 1 6.2-5.6-3-5.6 3 1-6.2-4.5-4.4 6.3-.9z" fill="#bca7ff"/>
   <g font-family="Segoe UI,Arial,sans-serif" font-weight="700">
     <text x="44" y="24" fill="#d0ccdf" font-size="12" letter-spacing="1">TOTAL STARS</text>
-    <text x="200" y="25" fill="#11182b" font-size="17" text-anchor="middle">44</text>
+    <text x="200" y="25" fill="#11182b" font-size="17" text-anchor="middle">47</text>
   </g>
 </svg>
