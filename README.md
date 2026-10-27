@@ -12,7 +12,7 @@
 <p align="center">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/profile/intro-mobile.svg" />
-    <img src="./assets/profile/intro.svg" width="100%" alt="I'm Custard. I build useful products and little worlds with code. Bachelor's and Master's in Data Science; PhD Year 0 in Artificial Intelligence." />
+    <img src="./assets/profile/intro.svg" width="100%" alt="I'm Custard. I build useful products and little worlds with code. Bachelor's and Master's in Data Science." />
   </picture>
 </p>
 

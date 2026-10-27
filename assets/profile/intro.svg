@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="304" viewBox="0 0 1120 304" role="img" aria-labelledby="title description">
   <title id="title">Hello, I'm Custard</title>
-  <desc id="description">I build useful products and little worlds with code. Bachelor's and Master's in Data Science; PhD Year 0 in Artificial Intelligence.</desc>
+  <desc id="description">I build useful products and little worlds with code. Bachelor's and Master's in Data Science.</desc>
   <style>
     .surface{fill:#f7f8fc}.edge{stroke:#e1e0ed}.ink{fill:#252d47}.muted{fill:#68718a}.mint{fill:#247965}.lavender{fill:#71609c}.card{fill:#fff}.star{fill:#bca7ff}
     @media(prefers-color-scheme:dark){.surface{fill:#11182b}.edge{stroke:#303950}.ink{fill:#f2effb}.muted{fill:#b1bad0}.mint{fill:#68efd0}.lavender{fill:#bca7ff}.card{fill:#192238}}
@@ -22,8 +22,8 @@
     <text class="ink" x="704" y="122" font-size="25" font-weight="600">Bachelor's &amp; Master's</text>
     <rect class="card edge" x="660" y="168" width="424" height="94" rx="14"/>
     <path d="M683 190v49" stroke="#bca7ff" stroke-width="3" stroke-linecap="round"/>
-    <text class="lavender" x="704" y="198" font-family="Consolas,monospace" font-size="15" letter-spacing="1">ARTIFICIAL INTELLIGENCE</text>
-    <text class="ink" x="704" y="232" font-size="25" font-weight="600">PhD · Year 0</text>
+    <text class="lavender" x="704" y="198" font-family="Consolas,monospace" font-size="15" letter-spacing="1">CURRENT FOCUS</text>
+    <text class="ink" x="704" y="232" font-size="25" font-weight="600">AI · Creative projects</text>
   </g>
   <path class="star twinkle" d="m576 70 4 12 12 4-12 4-4 12-4-12-12-4 12-4zm40 130 3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/>
   <g transform="translate(542 216) scale(1.1)" shape-rendering="crispEdges">
