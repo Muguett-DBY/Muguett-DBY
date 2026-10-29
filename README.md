@@ -55,31 +55,43 @@ Useful products, creative spaces, and a little world in progress.
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Muguett-DBY/HireWay">HireWay</a></h3>
-      <a href="https://hireway.custard.top"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/projects/hireway-home.png" /><img src="./assets/projects/hireway-demo.gif" width="100%" alt="HireWay&#x27;s public landing page and three-step introduction" /></picture></a>
-      <p>Australian career exploration, starting with your education and skills.</p>
-      <p><a href="https://hireway.custard.top"><strong>Explore HireWay ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Muguett-DBY/HireWay">Source</a></p>
+    <td width="40%" valign="middle">
+      <a href="https://hireway.custard.top"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/projects/hireway-home.png" /><img src="./assets/projects/hireway-demo.gif" width="100%" alt="HireWay's public landing page and three-step introduction" /></picture></a>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Muguett-DBY/naihuangbao-photography">Naihuangbao Photography</a></h3>
-      <a href="https://shoot.custard.top"><img src="./assets/projects/photography-home.png" width="100%" alt="The current English photography homepage, with a portrait gallery and booking links" /></a>
-      <p>A visual home for portraits, galleries, and booking information.</p>
-      <p><a href="https://shoot.custard.top"><strong>Browse the gallery ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Muguett-DBY/naihuangbao-photography">Source</a></p>
+    <td width="60%" valign="middle">
+      <h4><a href="https://github.com/Muguett-DBY/HireWay">HireWay</a></h4>
+      Australian career exploration, starting with your education and skills.<br />
+      <a href="https://hireway.custard.top">Visit ↗</a> · <a href="https://github.com/Muguett-DBY/HireWay">Code</a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Muguett-DBY/RocoDex">Custard Web</a></h3>
-      <a href="https://custard.top/en"><img src="./assets/projects/custard-work.png" width="100%" alt="The English selected-work section of Custard&#x27;s personal website" /></a>
-      <p>My work, engineering notes, and experiments in one home.</p>
-      <p><a href="https://custard.top/en"><strong>Visit my website ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Muguett-DBY/RocoDex">Source</a></p>
+    <td width="40%" valign="middle">
+      <a href="https://shoot.custard.top"><img src="./assets/projects/photography-home.png" width="100%" alt="The English photography homepage, with a portrait gallery and booking links" /></a>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Muguett-DBY/veilreach-mod">Veilreach</a></h3>
+    <td width="60%" valign="middle">
+      <h4><a href="https://github.com/Muguett-DBY/naihuangbao-photography">Naihuangbao Photography</a></h4>
+      A visual home for portraits, galleries, and booking information.<br />
+      <a href="https://shoot.custard.top">Gallery ↗</a> · <a href="https://github.com/Muguett-DBY/naihuangbao-photography">Code</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="40%" valign="middle">
+      <a href="https://custard.top/en"><img src="./assets/projects/custard-work.png" width="100%" alt="The English selected-work section of Custard's personal website" /></a>
+    </td>
+    <td width="60%" valign="middle">
+      <h4><a href="https://github.com/Muguett-DBY/RocoDex">Custard Web</a></h4>
+      My work, engineering notes, and experiments in one home.<br />
+      <a href="https://custard.top/en">Visit ↗</a> · <a href="https://github.com/Muguett-DBY/RocoDex">Code</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="40%" valign="middle">
       <a href="https://github.com/Muguett-DBY/veilreach-mod"><img src="./assets/projects/veilreach-world.svg" width="100%" alt="An illustration of Veilreach's moonlit portal; concept artwork for a Minecraft prototype" /></a>
-      <p>A Minecraft dimension of silver fog, moonlit ruins, and star-altars.</p>
-      <p><a href="https://github.com/Muguett-DBY/veilreach-mod"><strong>Explore the prototype ↗</strong></a></p>
+    </td>
+    <td width="60%" valign="middle">
+      <h4><a href="https://github.com/Muguett-DBY/veilreach-mod">Veilreach</a></h4>
+      A Minecraft dimension of silver fog, moonlit ruins, and star-altars.<br />
+      <a href="https://github.com/Muguett-DBY/veilreach-mod">Explore ↗</a>
     </td>
   </tr>
 </table>
