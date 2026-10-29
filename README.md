@@ -125,12 +125,35 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
 
 ### Shipped upstream
 
-A few fixes and improvements merged into open-source projects.
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/profile/upstream-logbook-mobile.svg" />
+    <img src="./assets/profile/upstream-logbook.svg" width="100%" alt="Open-source logbook: a few fixes shared upstream." />
+  </picture>
+</p>
 
-- 🖼️ **[Pillow](https://github.com/python-pillow/Pillow)** — [Preserve CMYK and `keep_rgb` MPO frames](https://github.com/python-pillow/Pillow/pull/10328) · [Align CI check names](https://github.com/python-pillow/Pillow/pull/10300) (co-authored).
-- 🧭 **[pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard)** — [Serve mounted ASGI panels](https://github.com/MaciejZiel/pytest-queryguard/pull/210) · [Preserve WSGI file responses](https://github.com/MaciejZiel/pytest-queryguard/pull/211) · [Keep query timings stable](https://github.com/MaciejZiel/pytest-queryguard/pull/202) · [Attribute WSGI queries](https://github.com/MaciejZiel/pytest-queryguard/pull/203).
-- 🏅 **[gh-achievements](https://github.com/nmloc/gh-achievements)** — [Detect earned badges more reliably](https://github.com/nmloc/gh-achievements/pull/6).
-- 📦 **[Extrudo](https://github.com/zoltanf/extrudo)** — [Check attachment limits before imports and copies](https://github.com/zoltanf/extrudo/pull/131).
+<table>
+  <tr>
+    <td width="72" valign="middle"><img src="./assets/profile/upstream-imaging.svg" width="56" height="56" alt="Imaging" /></td>
+    <td valign="middle"><strong><a href="https://github.com/python-pillow/Pillow">Pillow</a></strong><br />
+      <a href="https://github.com/python-pillow/Pillow/pull/10328">Fix CMYK and keep_rgb MPO saving</a> · <a href="https://github.com/python-pillow/Pillow/pull/10300">Align CI check names</a> (co-authored)</td>
+  </tr>
+  <tr>
+    <td width="72" valign="middle"><img src="./assets/profile/upstream-testing.svg" width="56" height="56" alt="Testing" /></td>
+    <td valign="middle"><strong><a href="https://github.com/MaciejZiel/pytest-queryguard">pytest-queryguard</a></strong><br />
+      <a href="https://github.com/MaciejZiel/pytest-queryguard/pull/210">Serve mounted ASGI panels</a> · <a href="https://github.com/MaciejZiel/pytest-queryguard/pull/211">Preserve WSGI file responses</a> · <a href="https://github.com/MaciejZiel/pytest-queryguard/pull/202">Keep query timings stable</a> · <a href="https://github.com/MaciejZiel/pytest-queryguard/pull/203">Attribute WSGI queries</a></td>
+  </tr>
+  <tr>
+    <td width="72" valign="middle"><img src="./assets/profile/upstream-achievements.svg" width="56" height="56" alt="GitHub tools" /></td>
+    <td valign="middle"><strong><a href="https://github.com/nmloc/gh-achievements">gh-achievements</a></strong><br />
+      <a href="https://github.com/nmloc/gh-achievements/pull/6">Detect earned badges more reliably</a></td>
+  </tr>
+  <tr>
+    <td width="72" valign="middle"><img src="./assets/profile/upstream-projects.svg" width="56" height="56" alt="Project tools" /></td>
+    <td valign="middle"><strong><a href="https://github.com/zoltanf/extrudo">Extrudo</a></strong><br />
+      <a href="https://github.com/zoltanf/extrudo/pull/131">Check attachment limits before imports and copies</a></td>
+  </tr>
+</table>
 
 <details>
   <summary>More from my GitHub workshop: statistics</summary>

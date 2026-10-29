@@ -108,6 +108,10 @@ desktop and mobile layouts, adapt to light and dark colour schemes, and stop
 their decorative star animation when reduced motion is requested. Their
 education labels intentionally omit institution names.
 
+The open-source logbook and its category icons in `assets/profile/` are original
+illustrations for this profile. They adapt to light and dark colour schemes;
+the logbook's decorative stars respect reduced-motion preferences.
+
 ## Public project previews
 
 The website images in `assets/projects/` are real browser captures. HireWay,

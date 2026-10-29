@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">GitHub tools</title>
+  <style>.bg{fill:#fff7e8}.edge{stroke:#f3dfbb}.ink{stroke:#aa7735}.accent{fill:#e8b967}@media(prefers-color-scheme:dark){.bg{fill:#3b3020}.edge{stroke:#665333}.ink{stroke:#f1ca81}.accent{fill:#d9a957}}</style>
+  <rect class="bg edge" x="1" y="1" width="62" height="62" rx="15"/>
+  <circle class="ink" cx="32" cy="27" r="12" fill="none" stroke-width="2.5"/>
+  <path class="accent" d="m32 19 2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4-3.9-3.8 5.4-.8z"/>
+  <path class="ink" d="m25 37-2 12 9-4 9 4-2-12" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

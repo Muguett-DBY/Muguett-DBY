@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="172" viewBox="0 0 1120 172" role="img" aria-labelledby="title desc">
+  <title id="title">Open-source logbook</title>
+  <desc id="desc">A few fixes shared upstream, with a little mascot and stars.</desc>
+  <style>
+    .surface{fill:#f7f8fc}.border{stroke:#e1e0ed}.ink{fill:#252d47}.muted{fill:#68718a}.mint{fill:#247965}.star{fill:#a18be0}.orbit{stroke:#d4cfeb}.panel{fill:#fff}
+    @media(prefers-color-scheme:dark){.surface{fill:#11182b}.border{stroke:#303950}.ink{fill:#f2effb}.muted{fill:#b1bad0}.mint{fill:#68efd0}.star{fill:#bca7ff}.orbit{stroke:#3b3b59}.panel{fill:#192238}}
+    @media(prefers-reduced-motion:no-preference){.twinkle{animation:twinkle 6s ease-in-out infinite}@keyframes twinkle{0%,100%{opacity:.4}50%{opacity:1}}}
+  </style>
+  <rect class="surface border" x="1" y="1" width="1118" height="170" rx="20"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <circle cx="34" cy="30" r="4" fill="#efa1a2"/><circle cx="49" cy="30" r="4" fill="#ffd783"/><circle cx="64" cy="30" r="4" fill="#68c6ac"/>
+    <text class="muted" x="84" y="35" font-family="Consolas,monospace" font-size="14" letter-spacing="2">OPEN SOURCE / LOGBOOK</text>
+    <text class="ink" x="36" y="90" font-size="34" font-weight="700">A few fixes, shared upstream.</text>
+    <text class="mint" x="38" y="128" font-family="Consolas,monospace" font-size="15" letter-spacing="1">IMAGING  /  TESTING  /  DEVELOPER TOOLS</text>
+  </g>
+  <path class="orbit" d="M745 125c47-57 139-90 244-55 34 11 70 34 95 58" fill="none" stroke-width="2" stroke-dasharray="5 8"/>
+  <circle class="panel border" cx="898" cy="83" r="49"/>
+  <g transform="translate(874 58) scale(1.2)" shape-rendering="crispEdges">
+    <path d="M8 8h6V4h12v4h6v6h4v18h-4v6H8v-6H4V14h4z" fill="#ffd783"/>
+    <path d="M8 14h4v-4h8v4h-8v6H8z" fill="#fff0bf"/>
+    <path d="M22 8h4v6h4v4h-4v-4h-4z" fill="#e6ad60"/>
+    <path d="M12 24h3v4h-3zm13 0h3v4h-3z" fill="#29304a"/>
+    <path d="M17 29h6v3h-6z" fill="#986556"/>
+    <path d="M8 29h4v3H8zm20 0h4v3h-4z" fill="#efa1a2"/>
+  </g>
+  <path class="star twinkle" d="m762 55 4 9 9 4-9 4-4 9-4-9-9-4 9-4zm262 26 4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/>
+  <circle class="mint" cx="1055" cy="44" r="3"/><circle class="star" cx="803" cy="132" r="3"/>
+</svg>

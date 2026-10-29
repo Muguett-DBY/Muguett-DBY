@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Project tools</title>
+  <style>.bg{fill:#fff1f1}.edge{stroke:#f1d5d6}.ink{stroke:#ad6870}.accent{fill:#e6a5a8}@media(prefers-color-scheme:dark){.bg{fill:#3b252c}.edge{stroke:#67444d}.ink{stroke:#f1b2b6}.accent{fill:#d9959d}}</style>
+  <rect class="bg edge" x="1" y="1" width="62" height="62" rx="15"/>
+  <path class="ink" d="M14 24h14l4 4h18v19H14zM14 24v-5h13l4 5" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="accent" d="M24 34h16v3H24zm0 6h11v3H24z"/>
+</svg>
