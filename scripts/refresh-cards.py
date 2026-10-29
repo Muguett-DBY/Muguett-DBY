@@ -8,10 +8,15 @@ import re
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
+snapshot_date = datetime.now(ZoneInfo('Australia/Sydney')).date().isoformat()
 BASE = {
     'username': 'Muguett-DBY', 'bg_color': '11182b', 'title_color': '68efd0',
     'text_color': 'd0ccdf', 'icon_color': 'bca7ff', 'hide_border': 'true',
     'border_radius': '12', 'disable_animations': 'true',
+    # The provider may cache a URL for several days. A stable daily key keeps
+    # manual refreshes on the same day cacheable without reusing a stale URL
+    # across days; the provider may still cache its underlying data.
+    'snapshot': snapshot_date,
 }
 URLS = {
     'github-stats.svg': 'https://github-stats-extended.vercel.app/api?' + urlencode(BASE | {
@@ -47,8 +52,7 @@ for name, url in URLS.items():
 for name, data in pending.items():
     (ROOT / 'assets' / name).write_bytes(data)
     print(f'{name}: {len(data)} bytes')
-date = datetime.now(ZoneInfo('Australia/Sydney')).date().isoformat()
 readme = ROOT / 'README.md'
 text = readme.read_text(encoding='utf-8')
-text = re.sub(r'<!-- cards-date -->.*?<!-- /cards-date -->', f'<!-- cards-date -->{date}<!-- /cards-date -->', text)
+text = re.sub(r'<!-- cards-date -->.*?<!-- /cards-date -->', f'<!-- cards-date -->{snapshot_date}<!-- /cards-date -->', text)
 readme.write_text(text, encoding='utf-8')

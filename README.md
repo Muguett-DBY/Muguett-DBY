@@ -117,7 +117,7 @@ Recent fixes and shared contributions merged upstream.
   <img src="./profile-3d-contrib/custard-city.svg" width="100%" alt="My public GitHub contribution calendar, shown as a mint and lavender 3D city." />
 </p>
 
-<sub>Public GitHub activity · Updated daily · Generated <!-- city-date -->2026-10-29<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
+<sub>Public GitHub activity over the past year · Updated daily · Generated <!-- city-date -->2026-10-29<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
 
 <details>
   <summary>More from my GitHub workshop: stats & a contribution arcade</summary>
@@ -127,7 +127,7 @@ Recent fixes and shared contributions merged upstream.
   <img src="./assets/top-languages.svg" width="360" alt="Language distribution across public repositories." />
 </p>
 
-<sub>Cards generated on <!-- cards-date -->2026-10-28<!-- /cards-date -->. Language shares describe repository code, not skill levels.</sub>
+<sub>Cards generated on <!-- cards-date -->2026-10-30<!-- /cards-date -->. Total PRs are all-time; commits cover the last year. Language shares describe repository code, not skill levels.</sub>
 
 <p align="center">
   <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my public contribution calendar." />
