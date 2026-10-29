@@ -97,20 +97,6 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
 
 </details>
 
-### Shipped upstream
-
-Recent fixes and shared contributions merged upstream.
-
-| Project | Contribution | Status |
-| --- | --- | --- |
-| [Pillow](https://github.com/python-pillow/Pillow) | [Preserve all MPO frames when saving CMYK images or RGB with `keep_rgb`](https://github.com/python-pillow/Pillow/pull/10328) | Merged · unreleased |
-| [gh-achievements](https://github.com/nmloc/gh-achievements) | [Detect earned badges without counting README links](https://github.com/nmloc/gh-achievements/pull/6) | Merged |
-| [pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard) | [Serve panels under mounted ASGI paths](https://github.com/MaciejZiel/pytest-queryguard/pull/210) · [Preserve native WSGI file responses](https://github.com/MaciejZiel/pytest-queryguard/pull/211) | Merged · unreleased |
-| [Extrudo](https://github.com/zoltanf/extrudo) | [Check attachment limits before importing or copying projects](https://github.com/zoltanf/extrudo/pull/131) | Merged |
-| [Pillow](https://github.com/python-pillow/Pillow) | [Keep normal and docs-only CI check names consistent](https://github.com/python-pillow/Pillow/pull/10300) · co-author | Merged |
-| [pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard) | [Keep completed query logs' timings stable](https://github.com/MaciejZiel/pytest-queryguard/pull/202) | [0.4.1](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.4.1) |
-| [pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard) | [Attribute WSGI iteration and cleanup queries to the right request](https://github.com/MaciejZiel/pytest-queryguard/pull/203) | [0.5.0rc1](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.5.0rc1) · experimental |
-
 ### A little city, built one commit at a time
 
 <p align="center">
@@ -119,8 +105,23 @@ Recent fixes and shared contributions merged upstream.
 
 <sub>Public GitHub activity over the past year · Updated daily · Generated <!-- city-date -->2026-10-29<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
 
+<p align="center">
+  <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my public contribution calendar." />
+</p>
+
+<p align="center"><sub>A little contribution arcade · Snapshot <!-- snake-date -->2026-10-28<!-- /snake-date --></sub></p>
+
+### Shipped upstream
+
+A few fixes and improvements merged into open-source projects.
+
+- 🖼️ **[Pillow](https://github.com/python-pillow/Pillow)** — [Preserve CMYK and `keep_rgb` MPO frames](https://github.com/python-pillow/Pillow/pull/10328) · [Align CI check names](https://github.com/python-pillow/Pillow/pull/10300) (co-authored).
+- 🧭 **[pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard)** — [Serve mounted ASGI panels](https://github.com/MaciejZiel/pytest-queryguard/pull/210) · [Preserve WSGI file responses](https://github.com/MaciejZiel/pytest-queryguard/pull/211) · [Keep query timings stable](https://github.com/MaciejZiel/pytest-queryguard/pull/202) · [Attribute WSGI queries](https://github.com/MaciejZiel/pytest-queryguard/pull/203).
+- 🏅 **[gh-achievements](https://github.com/nmloc/gh-achievements)** — [Detect earned badges more reliably](https://github.com/nmloc/gh-achievements/pull/6).
+- 📦 **[Extrudo](https://github.com/zoltanf/extrudo)** — [Check attachment limits before imports and copies](https://github.com/zoltanf/extrudo/pull/131).
+
 <details>
-  <summary>More from my GitHub workshop: stats & a contribution arcade</summary>
+  <summary>More from my GitHub workshop: statistics</summary>
 
 <p align="center">
   <img src="./assets/github-stats.svg" width="360" alt="GitHub statistics from public activity." />
@@ -128,12 +129,6 @@ Recent fixes and shared contributions merged upstream.
 </p>
 
 <sub>Cards generated on <!-- cards-date -->2026-10-30<!-- /cards-date -->. Total PRs are all-time; commits cover the last year. Language shares describe repository code, not skill levels.</sub>
-
-<p align="center">
-  <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my public contribution calendar." />
-</p>
-
-<sub>Snake snapshot generated on <!-- snake-date -->2026-10-28<!-- /snake-date -->.</sub>
 
 </details>
 
