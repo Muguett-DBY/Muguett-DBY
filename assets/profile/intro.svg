@@ -4,7 +4,7 @@
   <style>
     .surface{fill:#f7f8fc}.edge{stroke:#e1e0ed}.ink{fill:#252d47}.muted{fill:#68718a}.mint{fill:#247965}.lavender{fill:#71609c}.card{fill:#fff}.star{fill:#bca7ff}
     @media(prefers-color-scheme:dark){.surface{fill:#11182b}.edge{stroke:#303950}.ink{fill:#f2effb}.muted{fill:#b1bad0}.mint{fill:#68efd0}.lavender{fill:#bca7ff}.card{fill:#192238}}
-    @media(prefers-reduced-motion:no-preference){.twinkle{animation:twinkle 6s ease-in-out infinite}@keyframes twinkle{0%,100%{opacity:.35}50%{opacity:1}}}
+    @media(prefers-reduced-motion:no-preference){.twinkle{animation:twinkle 6s ease-in-out infinite}.float{animation:float 6s ease-in-out infinite}@keyframes twinkle{0%,100%{opacity:.35}50%{opacity:1}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}}
   </style>
   <rect class="surface edge" x="1" y="1" width="1118" height="302" rx="20" fill="none"/>
   <g font-family="Segoe UI,Arial,sans-serif">
@@ -34,4 +34,5 @@
     <path d="M17 29h6v3h-6z" fill="#986556"/>
     <path d="M8 29h4v3H8zm20 0h4v3h-4z" fill="#efa1a2"/>
   </g>
+  <g class="float"><ellipse cx="582" cy="150" rx="44" ry="18" transform="rotate(-24 582 150)" fill="none" stroke="#9b91c5" stroke-width="2" opacity=".55"/><circle cx="582" cy="150" r="17" fill="#9de9d5"/><path d="M572 147c4-5 10-7 16-5" fill="none" stroke="#e9fff9" stroke-width="3" stroke-linecap="round"/><circle cx="617" cy="136" r="4" fill="#bca7ff"/></g>
 </svg>

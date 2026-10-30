@@ -16,6 +16,8 @@ Copyright (c) 2021 Jonah Lawrence. MIT license notice:
 [`licenses/readme-typing-svg-MIT.txt`](./licenses/readme-typing-svg-MIT.txt).
 The generated SVG is stored locally so the profile does not need to call the
 generation service on each view. It retains the original SVG animation.
+`assets/profile/typing-mobile.svg` adapts the same artwork to a narrower viewport;
+the static desktop and mobile variants are used when reduced motion is requested.
 
 Regeneration URL:
 

@@ -3,6 +3,15 @@
 </p>
 
 <p align="center">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile/typing-static-mobile.svg" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile/typing-static.svg" />
+    <source media="(max-width: 600px)" srcset="./assets/profile/typing-mobile.svg" />
+    <img src="./assets/typing.svg" width="100%" alt="Turning data into useful products. Building little worlds with code. Exploring artificial intelligence." />
+  </picture>
+</p>
+
+<p align="center">
   <a href="https://custard.top"><img src="./assets/profile/nav-website.svg" width="132" height="38" alt="Visit my website" /></a>
   <a href="#user-content-selected-projects"><img src="./assets/profile/nav-projects.svg" width="132" height="38" alt="Explore my projects" /></a>
   <a href="https://custard.top/en/notes"><img src="./assets/profile/nav-notes.svg" width="132" height="38" alt="Read my notes" /></a>
