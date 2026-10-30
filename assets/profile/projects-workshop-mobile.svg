@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="176" viewBox="0 0 420 176" role="img" aria-labelledby="title desc">
+  <title id="title">Selected projects</title>
+  <desc id="desc">Ideas made real: data products, creative spaces and little worlds.</desc>
+  <style>
+    .surface{fill:#f7f8fc}.border{stroke:#e1e0ed}.ink{fill:#252d47}.muted{fill:#68718a}.mint{fill:#247965}.lavender{fill:#71609c}.card{fill:#fff}.orbit{stroke:#d4cfeb}.screen{fill:#e8f4f1}.star{fill:#a18be0}
+    @media(prefers-color-scheme:dark){.surface{fill:#11182b}.border{stroke:#303950}.ink{fill:#f2effb}.muted{fill:#b1bad0}.mint{fill:#68efd0}.lavender{fill:#bca7ff}.card{fill:#192238}.orbit{stroke:#3b3b59}.screen{fill:#203c3c}.star{fill:#bca7ff}}
+    @media(prefers-reduced-motion:no-preference){.twinkle{animation:twinkle 6s ease-in-out infinite}@keyframes twinkle{0%,100%{opacity:.45}50%{opacity:1}}}
+  </style>
+  <rect class="surface border" x="1" y="1" width="418" height="174" rx="16"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <circle cx="22" cy="26" r="3" fill="#efa1a2"/><circle cx="34" cy="26" r="3" fill="#ffd783"/><circle cx="46" cy="26" r="3" fill="#68c6ac"/>
+    <text class="muted" x="62" y="30" font-family="Consolas,monospace" font-size="10" letter-spacing="1.3">SELECTED WORK / WORKSHOP</text>
+    <text class="ink" x="22" y="72" font-size="25" font-weight="700">Small ideas,</text>
+    <text class="ink" x="22" y="103" font-size="25" font-weight="700">made real.</text>
+    <text class="mint" x="23" y="143" font-family="Consolas,monospace" font-size="10" letter-spacing=".4">PRODUCTS / CREATIVE SPACES / WORLDS</text>
+  </g>
+  <path class="orbit" d="M288 116c18-43 61-59 103-27" fill="none" stroke-width="1.5" stroke-dasharray="4 6"/>
+  <rect class="card border" x="294" y="48" width="88" height="66" rx="9"/>
+  <circle cx="306" cy="59" r="2" fill="#efa1a2"/><circle cx="314" cy="59" r="2" fill="#ffd783"/><circle cx="322" cy="59" r="2" fill="#68c6ac"/>
+  <rect class="screen" x="303" y="70" width="37" height="33" rx="4"/>
+  <path d="m309 99 8-9 5 5 6-10 7 14z" fill="#68c6ac"/>
+  <circle cx="314" cy="78" r="3" fill="#ffd783"/>
+  <path class="orbit" d="M348 75h24m-24 8h20m-20 8h23m-23 8h14" fill="none" stroke-width="2.5" stroke-linecap="round"/>
+  <path class="star twinkle" d="m283 48 3 7 7 3-7 3-3 7-3-7-7-3 7-3zm105 70 3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/>
+  <circle class="mint" cx="389" cy="41" r="2.5"/>
+</svg>

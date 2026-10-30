@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="172" viewBox="0 0 1120 172" role="img" aria-labelledby="title desc">
+  <title id="title">Selected projects</title>
+  <desc id="desc">Ideas made real: data products, creative spaces and little worlds.</desc>
+  <style>
+    .surface{fill:#f7f8fc}.border{stroke:#e1e0ed}.ink{fill:#252d47}.muted{fill:#68718a}.mint{fill:#247965}.lavender{fill:#71609c}.card{fill:#fff}.orbit{stroke:#d4cfeb}.screen{fill:#e8f4f1}.star{fill:#a18be0}
+    @media(prefers-color-scheme:dark){.surface{fill:#11182b}.border{stroke:#303950}.ink{fill:#f2effb}.muted{fill:#b1bad0}.mint{fill:#68efd0}.lavender{fill:#bca7ff}.card{fill:#192238}.orbit{stroke:#3b3b59}.screen{fill:#203c3c}.star{fill:#bca7ff}}
+    @media(prefers-reduced-motion:no-preference){.twinkle{animation:twinkle 6s ease-in-out infinite}@keyframes twinkle{0%,100%{opacity:.45}50%{opacity:1}}}
+  </style>
+  <rect class="surface border" x="1" y="1" width="1118" height="170" rx="20"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <circle cx="34" cy="30" r="4" fill="#efa1a2"/><circle cx="49" cy="30" r="4" fill="#ffd783"/><circle cx="64" cy="30" r="4" fill="#68c6ac"/>
+    <text class="muted" x="84" y="35" font-family="Consolas,monospace" font-size="14" letter-spacing="2">SELECTED WORK / WORKSHOP</text>
+    <text class="ink" x="36" y="90" font-size="34" font-weight="700">Small ideas, made real.</text>
+    <text class="mint" x="38" y="128" font-family="Consolas,monospace" font-size="15" letter-spacing="1">DATA PRODUCTS  /  CREATIVE SPACES  /  LITTLE WORLDS</text>
+  </g>
+  <path class="orbit" d="M735 124c54-61 148-83 250-50 38 12 72 31 100 57" fill="none" stroke-width="2" stroke-dasharray="5 8"/>
+  <rect class="card border" x="797" y="39" width="156" height="101" rx="13"/>
+  <circle cx="814" cy="55" r="3" fill="#efa1a2"/><circle cx="825" cy="55" r="3" fill="#ffd783"/><circle cx="836" cy="55" r="3" fill="#68c6ac"/>
+  <rect class="screen" x="811" y="69" width="67" height="53" rx="6"/>
+  <path d="m823 109 12-13 9 8 10-17 12 22z" fill="#68c6ac"/>
+  <circle cx="830" cy="82" r="5" fill="#ffd783"/>
+  <path class="orbit" d="M890 79h46m-46 12h38m-38 12h44m-44 12h27" fill="none" stroke-width="4" stroke-linecap="round"/>
+  <circle class="card border" cx="990" cy="81" r="31"/>
+  <path class="lavender" d="m990 59 5 13 13 5-13 5-5 13-5-13-13-5 13-5z"/>
+  <path class="star twinkle" d="m757 47 3 8 8 3-8 3-3 8-3-8-8-3 8-3zm285 72 3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+  <circle class="mint" cx="1062" cy="49" r="3"/><circle class="star" cx="779" cy="135" r="3"/>
+</svg>

@@ -51,7 +51,12 @@
 
 ### Selected projects
 
-Useful products, creative spaces, and a little world in progress.
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/profile/projects-workshop-mobile.svg" />
+    <img src="./assets/profile/projects-workshop.svg" width="100%" alt="Small ideas, made real: data products, creative spaces and little worlds." />
+  </picture>
+</p>
 
 <table>
   <tr>
