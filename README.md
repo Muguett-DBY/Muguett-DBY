@@ -45,6 +45,13 @@
   <sub>Across all my public repositories · Updated daily</sub>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/profile/achievement-shelf-mobile.svg" />
+    <img src="./assets/profile/achievement-shelf.svg" width="100%" alt="Achievement shelf: badges earned on GitHub." />
+  </picture>
+</p>
+
 <!-- earned-achievements:start -->
 <p align="center">
   <a href="https://github.com/Muguett-DBY?achievement=galaxy-brain&amp;tab=achievements"><img src="https://github.githubassets.com/assets/galaxy-brain-bronze-da3c4829fd22.png" width="80" height="80" alt="Galaxy Brain (Bronze)" title="Galaxy Brain (Bronze)" /></a>

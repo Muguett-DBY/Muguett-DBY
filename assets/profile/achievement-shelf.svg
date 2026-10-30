@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="94" viewBox="0 0 1120 94" role="img" aria-labelledby="title desc">
+  <title id="title">Achievement shelf</title>
+  <desc id="desc">A little shelf for badges earned on GitHub.</desc>
+  <style>
+    .surface{fill:#f7f8fc}.edge{stroke:#e1e0ed}.ink{fill:#252d47}.muted{fill:#68718a}.mint{fill:#247965}.star{fill:#a18be0}.orbit{stroke:#d4cfeb}.medal{fill:#fff;stroke:#e1e0ed}
+    @media(prefers-color-scheme:dark){.surface{fill:#11182b}.edge{stroke:#303950}.ink{fill:#f2effb}.muted{fill:#b1bad0}.mint{fill:#68efd0}.star{fill:#bca7ff}.orbit{stroke:#3b3b59}.medal{fill:#192238;stroke:#303950}}
+    @media(prefers-reduced-motion:no-preference){.twinkle{animation:twinkle 6s ease-in-out infinite}@keyframes twinkle{0%,100%{opacity:.4}50%{opacity:1}}}
+  </style>
+  <rect class="surface edge" x="1" y="1" width="1118" height="92" rx="18"/>
+  <circle cx="32" cy="24" r="4" fill="#efa1a2"/><circle cx="47" cy="24" r="4" fill="#ffd783"/><circle cx="62" cy="24" r="4" fill="#68c6ac"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text class="muted" x="82" y="29" font-family="Consolas,monospace" font-size="13" letter-spacing="2">MILESTONES / ACHIEVEMENTS</text>
+    <text class="ink" x="32" y="65" font-size="28" font-weight="700">A little shelf of GitHub badges.</text>
+    <text class="mint" x="580" y="63" font-family="Consolas,monospace" font-size="14" letter-spacing="1">EARNED ALONG THE WAY</text>
+  </g>
+  <path class="orbit" d="M830 69c45-48 119-57 192-18" fill="none" stroke-width="2" stroke-dasharray="5 7"/>
+  <circle class="medal" cx="960" cy="46" r="29"/>
+  <path d="m960 27 4.8 10.3 11.2 1.4-8.2 7.7 2 11-9.8-5.6-9.8 5.6 2-11-8.2-7.7 11.2-1.4z" fill="#ffd783"/>
+  <path class="star twinkle" d="m872 25 3 8 8 3-8 3-3 8-3-8-8-3 8-3zm151 31 3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+  <circle class="mint" cx="1060" cy="30" r="3"/><circle class="star" cx="910" cy="69" r="3"/>
+</svg>
