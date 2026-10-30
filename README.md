@@ -148,6 +148,11 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
 
 <table>
   <tr>
+    <td width="72" valign="middle"><img src="./assets/profile/upstream-data.svg" width="56" height="56" alt="Data" /></td>
+    <td valign="middle"><strong><a href="https://github.com/pandas-dev/pandas-stubs">pandas-stubs</a></strong><br />
+      <a href="https://github.com/pandas-dev/pandas-stubs/pull/2048">Align Series window signatures with pandas 3</a></td>
+  </tr>
+  <tr>
     <td width="72" valign="middle"><img src="./assets/profile/upstream-imaging.svg" width="56" height="56" alt="Imaging" /></td>
     <td valign="middle"><strong><a href="https://github.com/python-pillow/Pillow">Pillow</a></strong><br />
       <a href="https://github.com/python-pillow/Pillow/pull/10328">Fix CMYK and keep_rgb MPO saving</a> · <a href="https://github.com/python-pillow/Pillow/pull/10300">Align CI check names</a> (co-authored)</td>

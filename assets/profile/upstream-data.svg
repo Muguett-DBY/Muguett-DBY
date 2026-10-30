@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Data</title>
+  <style>.bg{fill:#fff6e6}.edge{stroke:#f0dfbc}.ink{stroke:#9b7442}.accent{stroke:#40a58e}@media(prefers-color-scheme:dark){.bg{fill:#302a22}.edge{stroke:#65533b}.ink{stroke:#eac98e}.accent{stroke:#68efd0}}</style>
+  <rect class="bg edge" x="1" y="1" width="62" height="62" rx="15"/>
+  <rect class="ink" x="13" y="15" width="38" height="34" rx="4" fill="none" stroke-width="2.5"/>
+  <path class="ink" d="M13 26h38M25 15v34M38 15v34" fill="none" stroke-width="1.8" opacity=".55"/>
+  <path class="accent" d="m18 41 8-6 7 3 12-11" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
