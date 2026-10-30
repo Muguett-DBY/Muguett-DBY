@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="102" viewBox="0 0 420 102" role="img" aria-labelledby="title desc">
+  <title id="title">Activity atlas</title>
+  <desc id="desc">A city of little steps, with mint and lavender buildings under the stars.</desc>
+  <style>
+    .surface{fill:#f7f8fc}.edge{stroke:#e1e0ed}.ink{fill:#252d47}.muted{fill:#68718a}.mint{fill:#247965}.star{fill:#a18be0}.orbit{stroke:#d4cfeb}.panel{fill:#fff;stroke:#e1e0ed}.building{fill:#91cfbc}.building2{fill:#bbafe5}.roof{fill:#d8f0e7}
+    @media(prefers-color-scheme:dark){.surface{fill:#11182b}.edge{stroke:#303950}.ink{fill:#f2effb}.muted{fill:#b1bad0}.mint{fill:#68efd0}.star{fill:#bca7ff}.orbit{stroke:#3b3b59}.panel{fill:#192238;stroke:#303950}.building{fill:#3b947f}.building2{fill:#8172bc}.roof{fill:#9debd7}}
+    @media(prefers-reduced-motion:no-preference){.twinkle{animation:twinkle 6s ease-in-out infinite}@keyframes twinkle{0%,100%{opacity:.4}50%{opacity:1}}}
+  </style>
+  <rect class="surface edge" x="1" y="1" width="418" height="100" rx="16"/>
+  <circle cx="22" cy="23" r="3" fill="#efa1a2"/><circle cx="34" cy="23" r="3" fill="#ffd783"/><circle cx="46" cy="23" r="3" fill="#68c6ac"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text class="muted" x="62" y="27" font-family="Consolas,monospace" font-size="10" letter-spacing="1.2">ACTIVITY / CITY + ARCADE</text>
+    <text class="ink" x="22" y="61" font-size="23" font-weight="700">A city of little steps.</text>
+    <text class="mint" x="23" y="82" font-family="Consolas,monospace" font-size="10" letter-spacing=".6">PUBLIC ACTIVITY / PAST YEAR</text>
+  </g>
+  <path class="orbit" d="M300 79c23-38 65-42 100-17" fill="none" stroke-width="1.5" stroke-dasharray="4 6"/>
+  <circle class="panel" cx="355" cy="52" r="28"/>
+  <g transform="translate(335 29)">
+    <path class="building" d="M1 30 12 24 23 30 12 36z"/><path class="building" d="M1 30v14l11 6V36z"/><path class="mint" d="M12 36v14l11-6V30z"/>
+    <path class="building2" d="M15 17 26 11 37 17 26 23z"/><path class="building2" d="M15 17v25l11 6V23z"/><path class="star" d="M26 23v25l11-6V17z"/>
+    <path class="roof" d="M15 17 26 11 37 17 26 23z"/>
+  </g>
+  <path class="star twinkle" d="m302 31 2.5 6 6 2.5-6 2.5-2.5 6-2.5-6-6-2.5 6-2.5zm94 42 2.5 6 6 2.5-6 2.5-2.5 6-2.5-6-6-2.5 6-2.5z"/>
+  <circle class="mint" cx="398" cy="27" r="2.5"/>
+</svg>

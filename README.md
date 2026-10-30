@@ -133,6 +133,13 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
 ### A little city, built one commit at a time
 
 <p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/profile/activity-atlas-mobile.svg" />
+    <img src="./assets/profile/activity-atlas.svg" width="100%" alt="Activity atlas: a city of little steps." />
+  </picture>
+</p>
+
+<p align="center">
   <img src="./profile-3d-contrib/custard-city.svg" width="100%" alt="My public GitHub contribution calendar, shown as a mint and lavender 3D city." />
 </p>
 
