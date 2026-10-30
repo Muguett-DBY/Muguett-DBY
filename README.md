@@ -126,7 +126,7 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
   <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my public contribution calendar." />
 </p>
 
-<p align="center"><sub>A little contribution arcade · Snapshot <!-- snake-date -->2026-10-28<!-- /snake-date --></sub></p>
+<p align="center"><sub>A little contribution arcade · Snapshot <!-- snake-date -->2026-10-31<!-- /snake-date --></sub></p>
 
 ### Shipped upstream
 
@@ -168,7 +168,7 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
   <img src="./assets/top-languages.svg" width="360" alt="Language distribution across public repositories." />
 </p>
 
-<sub>Cards generated on <!-- cards-date -->2026-10-30<!-- /cards-date -->. Total PRs are all-time; commits cover the last year. Language shares describe repository code, not skill levels.</sub>
+<sub>Cards generated on <!-- cards-date -->2026-10-31<!-- /cards-date -->. Total PRs are all-time; commits cover the last year. Language shares describe repository code, not skill levels.</sub>
 
 </details>
 
