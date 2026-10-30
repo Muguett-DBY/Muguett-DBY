@@ -139,7 +139,10 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
 <sub>Public GitHub activity over the past year · Updated daily · Generated <!-- city-date -->2026-10-30<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
 
 <p align="center">
-  <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my public contribution calendar." />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/contribution-snake-light.svg" />
+    <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my public contribution calendar." />
+  </picture>
 </p>
 
 <p align="center"><sub>A little contribution arcade · Snapshot <!-- snake-date -->2026-10-31<!-- /snake-date --></sub></p>

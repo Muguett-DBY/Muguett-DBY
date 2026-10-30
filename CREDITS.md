@@ -34,9 +34,12 @@ Language percentages measure code in repositories, not proficiency.
 
 ## Snake
 
-`assets/contribution-snake.svg` is generated for Muguett-DBY using
+`assets/contribution-snake.svg` and `assets/contribution-snake-light.svg` are
+generated for Muguett-DBY using
 [Platane/snk](https://github.com/Platane/snk), npm release `generate-snake-animation@3.5.0`.
 The refresh workflow pins upstream to `a041d6c27ba561a39f5be9c26a784812765e434b`.
+The two palettes follow the viewer's colour scheme; a small local stylesheet
+disables their motion when the viewer requests reduced motion.
 Only generated artwork is included; the upstream source is not redistributed.
 The upstream repository does not currently declare a root license, so this
 credit does not claim an MIT license for Snake.

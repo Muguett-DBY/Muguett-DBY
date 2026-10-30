@@ -39,18 +39,17 @@ jobs:
           github_user_name: Muguett-DBY
           outputs: |
             assets/contribution-snake.svg?palette=github-dark&color_snake=%23bca7ff&color_dots=%2311182b,%2323413c,%233d8579,%2356baa5,%2368efd0
+            assets/contribution-snake-light.svg?palette=github-light&color_snake=%238d75cf&color_dots=%23eef0f8,%23c2eadf,%238cd7bd,%2349ad8d,%23176b59
       - name: Refresh statistics and footer
         run: python scripts/refresh-cards.py
       - name: Validate and date the snake
         run: |
+          python scripts/prepare-snake.py
           python - <<'PY'
           from pathlib import Path
           from datetime import datetime
           from zoneinfo import ZoneInfo
           import re
-          import xml.etree.ElementTree as ET
-          node = ET.parse('assets/contribution-snake.svg').getroot()
-          assert node.tag.endswith('svg')
           p = Path('README.md')
           date = datetime.now(ZoneInfo('Australia/Sydney')).date().isoformat()
           p.write_text(re.sub(r'<!-- snake-date -->.*?<!-- /snake-date -->', f'<!-- snake-date -->{date}<!-- /snake-date -->', p.read_text()))
@@ -59,7 +58,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md assets/total-stars.svg assets/github-stats.svg assets/top-languages.svg assets/capsule-footer.svg assets/contribution-snake.svg
+          git add README.md assets/total-stars.svg assets/github-stats.svg assets/top-languages.svg assets/capsule-footer.svg assets/contribution-snake.svg assets/contribution-snake-light.svg
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh profile artwork'
             git push
