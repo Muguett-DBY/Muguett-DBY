@@ -115,7 +115,7 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
   <img src="./profile-3d-contrib/custard-city.svg" width="100%" alt="My public GitHub contribution calendar, shown as a mint and lavender 3D city." />
 </p>
 
-<sub>Public GitHub activity over the past year · Updated daily · Generated <!-- city-date -->2026-10-29<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
+<sub>Public GitHub activity over the past year · Updated daily · Generated <!-- city-date -->2026-10-30<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
 
 <p align="center">
   <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my public contribution calendar." />
