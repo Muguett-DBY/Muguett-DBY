@@ -4,9 +4,9 @@
 
 <p align="center">
   <a href="https://custard.top"><img src="./assets/profile/nav-website.svg" width="132" height="38" alt="Visit my website" /></a>
-  <a href="#selected-projects"><img src="./assets/profile/nav-projects.svg" width="132" height="38" alt="Explore my projects" /></a>
+  <a href="#user-content-selected-projects"><img src="./assets/profile/nav-projects.svg" width="132" height="38" alt="Explore my projects" /></a>
   <a href="https://custard.top/en/notes"><img src="./assets/profile/nav-notes.svg" width="132" height="38" alt="Read my notes" /></a>
-  <a href="#shipped-upstream"><img src="./assets/profile/nav-opensource.svg" width="132" height="38" alt="Open-source contributions" /></a>
+  <a href="#user-content-shipped-upstream"><img src="./assets/profile/nav-opensource.svg" width="132" height="38" alt="Open-source contributions" /></a>
 </p>
 
 <p align="center">
