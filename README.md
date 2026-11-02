@@ -54,6 +54,7 @@
 
 <!-- earned-achievements:start -->
 <p align="center">
+  <a href="https://github.com/Muguett-DBY?achievement=pair-extraordinaire&amp;tab=achievements"><img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="80" height="80" alt="Pair Extraordinaire" title="Pair Extraordinaire" /></a>
   <a href="https://github.com/Muguett-DBY?achievement=galaxy-brain&amp;tab=achievements"><img src="https://github.githubassets.com/assets/galaxy-brain-bronze-da3c4829fd22.png" width="80" height="80" alt="Galaxy Brain (Bronze)" title="Galaxy Brain (Bronze)" /></a>
   <a href="https://github.com/Muguett-DBY?achievement=public-sponsor&amp;tab=achievements"><img src="https://github.githubassets.com/assets/public-sponsor-default-9fa68986b057.png" width="80" height="80" alt="Public Sponsor" title="Public Sponsor" /></a>
   <a href="https://github.com/Muguett-DBY?achievement=quickdraw&amp;tab=achievements"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="80" height="80" alt="Quickdraw" title="Quickdraw" /></a>
@@ -143,7 +144,7 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
   <img src="./profile-3d-contrib/custard-city.svg" width="100%" alt="My public GitHub contribution calendar, shown as a mint and lavender 3D city." />
 </p>
 
-<sub>Public GitHub activity over the past year · Updated daily · Generated <!-- city-date -->2026-11-01<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
+<sub>Public GitHub activity over the past year · Updated daily · Generated <!-- city-date -->2026-11-02<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
 
 <p align="center">
   <picture>
