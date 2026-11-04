@@ -168,7 +168,8 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
   <tr>
     <td width="72" valign="middle"><img src="./assets/profile/upstream-data.svg" width="56" height="56" alt="Data" /></td>
     <td valign="middle"><strong><a href="https://github.com/pandas-dev/pandas-stubs">pandas-stubs</a></strong><br />
-      <a href="https://github.com/pandas-dev/pandas-stubs/pull/2048">Align Series window signatures with pandas 3</a></td>
+      <a href="https://github.com/pandas-dev/pandas-stubs/pull/2048">Align Series window signatures with pandas 3</a><br />
+      <a href="https://github.com/pandas-dev/pandas-stubs/pull/2053">Update the minimum NumPy version</a></td>
   </tr>
   <tr>
     <td width="72" valign="middle"><img src="./assets/profile/upstream-imaging.svg" width="56" height="56" alt="Imaging" /></td>
@@ -186,6 +187,11 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
       <a href="https://github.com/nmloc/gh-achievements/pull/6">Detect earned badges more reliably</a></td>
   </tr>
   <tr>
+    <td width="72" valign="middle"><img src="./assets/profile/upstream-stats.svg" width="56" height="56" alt="Statistics" /></td>
+    <td valign="middle"><strong><a href="https://github.com/stats-organization/github-stats-extended">GitHub Stats Extended</a></strong><br />
+      <a href="https://github.com/stats-organization/github-stats-extended/pull/679">Clarify how long the cache lasts</a></td>
+  </tr>
+  <tr>
     <td width="72" valign="middle"><img src="./assets/profile/upstream-projects.svg" width="56" height="56" alt="Project tools" /></td>
     <td valign="middle"><strong><a href="https://github.com/zoltanf/extrudo">Extrudo</a></strong><br />
       <a href="https://github.com/zoltanf/extrudo/pull/131">Check attachment limits before imports and copies</a></td>
@@ -200,7 +206,7 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
   <img src="./assets/top-languages.svg" width="360" alt="Language distribution across public repositories." />
 </p>
 
-<sub>Cards generated on <!-- cards-date -->2026-10-31<!-- /cards-date -->. Total PRs are all-time; commits cover the last year. Language shares describe repository code, not skill levels.</sub>
+<sub>Cards generated on <!-- cards-date -->2026-11-04<!-- /cards-date -->. Total PRs are all-time; commits cover the last year. Language shares describe repository code, not skill levels.</sub>
 
 </details>
 
