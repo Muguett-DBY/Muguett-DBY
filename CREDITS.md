@@ -135,3 +135,7 @@ preferences.
 The captures retain the rights and licenses of the depicted projects and media.
 This profile's code license does not relicense photographs, third-party logos,
 or other embedded artwork.
+
+The responsive project cards in `assets/projects/cards/` embed these same preview
+images, including the Veilreach concept illustration. They are generated locally
+with `scripts/render-project-cards.py` and have separate desktop and mobile layouts.
