@@ -153,7 +153,7 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
   </picture>
 </p>
 
-<p align="center"><sub>A little contribution arcade · Snapshot <!-- snake-date -->2026-10-31<!-- /snake-date --></sub></p>
+<p align="center"><sub>A little contribution arcade · Snapshot <!-- snake-date -->2026-11-04<!-- /snake-date --></sub></p>
 
 ### Shipped upstream
 
