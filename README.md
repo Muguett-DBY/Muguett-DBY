@@ -151,7 +151,8 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
     <td width="72" valign="middle"><img src="./assets/profile/upstream-data.svg" width="56" height="56" alt="Data" /></td>
     <td valign="middle"><strong><a href="https://github.com/pandas-dev/pandas-stubs">pandas-stubs</a></strong><br />
       <a href="https://github.com/pandas-dev/pandas-stubs/pull/2048">Align Series window signatures with pandas 3</a><br />
-      <a href="https://github.com/pandas-dev/pandas-stubs/pull/2053">Update the minimum NumPy version</a></td>
+      <a href="https://github.com/pandas-dev/pandas-stubs/pull/2053">Update the minimum NumPy version</a><br />
+      <a href="https://github.com/pandas-dev/pandas-stubs/pull/2070">Update ty and remove obsolete test suppressions</a></td>
   </tr>
   <tr>
     <td width="72" valign="middle"><img src="./assets/profile/upstream-imaging.svg" width="56" height="56" alt="Imaging" /></td>
