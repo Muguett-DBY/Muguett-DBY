@@ -60,12 +60,15 @@ def image_data(filename: str) -> str:
 def card_svg(item: tuple[str, ...], mobile: bool) -> str:
     _, number, category, title, description, filename, accent = item
     data = image_data(filename)
-    w, h = (720, 590) if mobile else (1200, 278)
-    image_x, image_y, image_w, image_h = (32, 197, 656, 369) if mobile else (770, 29, 392, 220)
-    title_size = 39 if mobile and len(title) > 19 else 44 if mobile else 40
-    lines = textwrap.wrap(description, 47 if mobile else 57)
+    w, h = (720, 624) if mobile else (1200, 278)
+    image_x, image_y, image_w, image_h = (32, 230, 656, 369) if mobile else (770, 29, 392, 220)
+    title_size = 44 if mobile and len(title) > 19 else 49 if mobile else 40
+    lines = textwrap.wrap(description, 32 if mobile else 57)
+    body_style = ' style="font-size:36px"' if mobile else ""
+    label_style = ' style="font-size:19px;letter-spacing:1.6px"' if mobile else ""
     body = "".join(
-        f'<text class="body" x="{34 if mobile else 45}" y="{151 + i * 31}">{escape(line)}</text>'
+        f'<text class="body"{body_style} x="{34 if mobile else 45}" '
+        f'y="{156 + i * 45 if mobile else 151 + i * 31}">{escape(line)}</text>'
         for i, line in enumerate(lines)
     )
     meta = "" if mobile else f'  <text class="meta" x="45" y="232">PROJECT {number} / CUSTARD WORKSHOP</text>\n'
@@ -75,7 +78,7 @@ def card_svg(item: tuple[str, ...], mobile: bool) -> str:
 {STYLE.strip()}
   <rect class="card" x="1" y="1" width="{w - 2}" height="{h - 2}" rx="24" />
   <circle cx="45" cy="42" r="5" fill="{accent}" />
-  <text class="label" x="62" y="47" fill="{accent}">{escape(category)}</text>
+  <text class="label"{label_style} x="62" y="47" fill="{accent}">{escape(category)}</text>
   <text class="title" style="font-size:{title_size}px" x="{34 if mobile else 45}" y="{103 if mobile else 105}">{escape(title)}</text>
   {body}
 {meta}  <defs><clipPath id="preview"><rect x="{image_x}" y="{image_y}" width="{image_w}" height="{image_h}" rx="10" /></clipPath></defs>
