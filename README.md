@@ -207,11 +207,20 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
 
 ### Keep exploring
 
-[Personal website](https://custard.top) · [Engineering notes](https://custard.top/en/notes) · [All repositories](https://github.com/Muguett-DBY?tab=repositories)
+<p align="center">
+  <a href="https://custard.top"><img src="./assets/profile/nav-website.svg" width="132" height="38" alt="Visit my personal website" /></a>
+  <a href="https://custard.top/en/notes"><img src="./assets/profile/nav-notes.svg" width="132" height="38" alt="Read my engineering notes" /></a>
+  <a href="https://github.com/Muguett-DBY?tab=repositories"><img src="./assets/profile/nav-repositories.svg" width="132" height="38" alt="Browse all repositories" /></a>
+</p>
 
-Have an idea or found a bug? Open an issue in the project.
+<p align="center"><sub>Have an idea or found a bug? Open an issue in the project.</sub></p>
 
-<p align="center"><img src="./assets/workshop-footer.svg" width="100%" alt="See you in the next little world. Data, code, and a little curiosity." /></p>
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/profile/workshop-footer-mobile.svg" />
+    <img src="./assets/workshop-footer.svg" width="100%" alt="See you in the next little world. Data, code, and a little curiosity." />
+  </picture>
+</p>
 
 <details>
   <summary>Made with a little help from open source</summary>
