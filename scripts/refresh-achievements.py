@@ -47,14 +47,14 @@ def render_section(owner, badges):
         tier = f" ({badge['tier'].title()})" if badge["tier"] != "default" else ""
         tier_label = badge["tier"].title() if badge["tier"] != "default" else "Unlocked"
         cells.append(
-            f'    <td width="50%" align="center"><a href="https://github.com/{owner}?achievement={slug}&amp;tab=achievements">'
+            f'    <td width="180" align="center"><a href="https://github.com/{owner}?achievement={slug}&amp;tab=achievements">'
             f'<img src="{badge["source"]}" width="72" height="72" alt="" title="{name}{tier}" />'
             f'<br /><strong><sub>{name}</sub></strong></a><br /><sub>{tier_label}</sub></td>'
         )
     rows = []
     for start in range(0, len(cells), 2):
         row = cells[start:start + 2]
-        row += ['    <td width="50%"></td>'] * (2 - len(row))
+        row += ['    <td width="180"></td>'] * (2 - len(row))
         rows.append("  <tr>\n" + "\n".join(row) + "\n  </tr>")
     return (
         START + '\n<table align="center">\n' + "\n".join(rows) + '\n</table>\n'

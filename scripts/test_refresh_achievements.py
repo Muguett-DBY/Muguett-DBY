@@ -63,7 +63,7 @@ class AchievementShowcaseTests(unittest.TestCase):
         badges = self.parse("".join(image(slug=f"badge-{n}", name=f"Badge {n}") for n in range(5)))
         section = module.render_section("Muguett-DBY", badges)
         self.assertEqual(section.count("<tr>"), 3)
-        self.assertEqual(section.count('<td width="50%"'), 6)
+        self.assertEqual(section.count('<td width="180"'), 6)
         self.assertEqual(section.count('tab=achievements">'), 6)
 
     def test_achievement_name_is_escaped_in_the_visible_label(self):

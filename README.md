@@ -58,16 +58,16 @@
 <!-- earned-achievements:start -->
 <table align="center">
   <tr>
-    <td width="50%" align="center"><a href="https://github.com/Muguett-DBY?achievement=pair-extraordinaire&amp;tab=achievements"><img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="72" height="72" alt="" title="Pair Extraordinaire" /><br /><strong><sub>Pair Extraordinaire</sub></strong></a><br /><sub>Unlocked</sub></td>
-    <td width="50%" align="center"><a href="https://github.com/Muguett-DBY?achievement=galaxy-brain&amp;tab=achievements"><img src="https://github.githubassets.com/assets/galaxy-brain-bronze-da3c4829fd22.png" width="72" height="72" alt="" title="Galaxy Brain (Bronze)" /><br /><strong><sub>Galaxy Brain</sub></strong></a><br /><sub>Bronze</sub></td>
+    <td width="180" align="center"><a href="https://github.com/Muguett-DBY?achievement=pair-extraordinaire&amp;tab=achievements"><img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="72" height="72" alt="" title="Pair Extraordinaire" /><br /><strong><sub>Pair Extraordinaire</sub></strong></a><br /><sub>Unlocked</sub></td>
+    <td width="180" align="center"><a href="https://github.com/Muguett-DBY?achievement=galaxy-brain&amp;tab=achievements"><img src="https://github.githubassets.com/assets/galaxy-brain-bronze-da3c4829fd22.png" width="72" height="72" alt="" title="Galaxy Brain (Bronze)" /><br /><strong><sub>Galaxy Brain</sub></strong></a><br /><sub>Bronze</sub></td>
   </tr>
   <tr>
-    <td width="50%" align="center"><a href="https://github.com/Muguett-DBY?achievement=public-sponsor&amp;tab=achievements"><img src="https://github.githubassets.com/assets/public-sponsor-default-9fa68986b057.png" width="72" height="72" alt="" title="Public Sponsor" /><br /><strong><sub>Public Sponsor</sub></strong></a><br /><sub>Unlocked</sub></td>
-    <td width="50%" align="center"><a href="https://github.com/Muguett-DBY?achievement=quickdraw&amp;tab=achievements"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="72" height="72" alt="" title="Quickdraw" /><br /><strong><sub>Quickdraw</sub></strong></a><br /><sub>Unlocked</sub></td>
+    <td width="180" align="center"><a href="https://github.com/Muguett-DBY?achievement=public-sponsor&amp;tab=achievements"><img src="https://github.githubassets.com/assets/public-sponsor-default-9fa68986b057.png" width="72" height="72" alt="" title="Public Sponsor" /><br /><strong><sub>Public Sponsor</sub></strong></a><br /><sub>Unlocked</sub></td>
+    <td width="180" align="center"><a href="https://github.com/Muguett-DBY?achievement=quickdraw&amp;tab=achievements"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="72" height="72" alt="" title="Quickdraw" /><br /><strong><sub>Quickdraw</sub></strong></a><br /><sub>Unlocked</sub></td>
   </tr>
   <tr>
-    <td width="50%" align="center"><a href="https://github.com/Muguett-DBY?achievement=pull-shark&amp;tab=achievements"><img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="72" height="72" alt="" title="Pull Shark (Bronze)" /><br /><strong><sub>Pull Shark</sub></strong></a><br /><sub>Bronze</sub></td>
-    <td width="50%" align="center"><a href="https://github.com/Muguett-DBY?achievement=yolo&amp;tab=achievements"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="72" height="72" alt="" title="YOLO" /><br /><strong><sub>YOLO</sub></strong></a><br /><sub>Unlocked</sub></td>
+    <td width="180" align="center"><a href="https://github.com/Muguett-DBY?achievement=pull-shark&amp;tab=achievements"><img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="72" height="72" alt="" title="Pull Shark (Bronze)" /><br /><strong><sub>Pull Shark</sub></strong></a><br /><sub>Bronze</sub></td>
+    <td width="180" align="center"><a href="https://github.com/Muguett-DBY?achievement=yolo&amp;tab=achievements"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="72" height="72" alt="" title="YOLO" /><br /><strong><sub>YOLO</sub></strong></a><br /><sub>Unlocked</sub></td>
   </tr>
 </table>
 <p align="center"><sub><a href="https://github.com/Muguett-DBY?tab=achievements">Earned on GitHub</a> · Updated daily</sub></p>
