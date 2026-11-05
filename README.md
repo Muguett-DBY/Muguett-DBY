@@ -56,14 +56,20 @@
 </p>
 
 <!-- earned-achievements:start -->
-<p align="center">
-  <a href="https://github.com/Muguett-DBY?achievement=pair-extraordinaire&amp;tab=achievements"><img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="80" height="80" alt="Pair Extraordinaire" title="Pair Extraordinaire" /></a>
-  <a href="https://github.com/Muguett-DBY?achievement=galaxy-brain&amp;tab=achievements"><img src="https://github.githubassets.com/assets/galaxy-brain-bronze-da3c4829fd22.png" width="80" height="80" alt="Galaxy Brain (Bronze)" title="Galaxy Brain (Bronze)" /></a>
-  <a href="https://github.com/Muguett-DBY?achievement=public-sponsor&amp;tab=achievements"><img src="https://github.githubassets.com/assets/public-sponsor-default-9fa68986b057.png" width="80" height="80" alt="Public Sponsor" title="Public Sponsor" /></a>
-  <a href="https://github.com/Muguett-DBY?achievement=quickdraw&amp;tab=achievements"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="80" height="80" alt="Quickdraw" title="Quickdraw" /></a>
-  <a href="https://github.com/Muguett-DBY?achievement=pull-shark&amp;tab=achievements"><img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="80" height="80" alt="Pull Shark (Bronze)" title="Pull Shark (Bronze)" /></a>
-  <a href="https://github.com/Muguett-DBY?achievement=yolo&amp;tab=achievements"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="80" height="80" alt="YOLO" title="YOLO" /></a>
-</p>
+<table align="center">
+  <tr>
+    <td width="50%" align="center"><a href="https://github.com/Muguett-DBY?achievement=pair-extraordinaire&amp;tab=achievements"><img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="72" height="72" alt="" title="Pair Extraordinaire" /><br /><strong><sub>Pair Extraordinaire</sub></strong></a><br /><sub>Unlocked</sub></td>
+    <td width="50%" align="center"><a href="https://github.com/Muguett-DBY?achievement=galaxy-brain&amp;tab=achievements"><img src="https://github.githubassets.com/assets/galaxy-brain-bronze-da3c4829fd22.png" width="72" height="72" alt="" title="Galaxy Brain (Bronze)" /><br /><strong><sub>Galaxy Brain</sub></strong></a><br /><sub>Bronze</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="https://github.com/Muguett-DBY?achievement=public-sponsor&amp;tab=achievements"><img src="https://github.githubassets.com/assets/public-sponsor-default-9fa68986b057.png" width="72" height="72" alt="" title="Public Sponsor" /><br /><strong><sub>Public Sponsor</sub></strong></a><br /><sub>Unlocked</sub></td>
+    <td width="50%" align="center"><a href="https://github.com/Muguett-DBY?achievement=quickdraw&amp;tab=achievements"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="72" height="72" alt="" title="Quickdraw" /><br /><strong><sub>Quickdraw</sub></strong></a><br /><sub>Unlocked</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="https://github.com/Muguett-DBY?achievement=pull-shark&amp;tab=achievements"><img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="72" height="72" alt="" title="Pull Shark (Bronze)" /><br /><strong><sub>Pull Shark</sub></strong></a><br /><sub>Bronze</sub></td>
+    <td width="50%" align="center"><a href="https://github.com/Muguett-DBY?achievement=yolo&amp;tab=achievements"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="72" height="72" alt="" title="YOLO" /><br /><strong><sub>YOLO</sub></strong></a><br /><sub>Unlocked</sub></td>
+  </tr>
+</table>
 <p align="center"><sub><a href="https://github.com/Muguett-DBY?tab=achievements">Earned on GitHub</a> · Updated daily</sub></p>
 <!-- earned-achievements:end -->
 
@@ -80,7 +86,8 @@
 
 <p align="center">
   <a href="https://hireway.custard.top"><picture><source media="(max-width: 600px)" srcset="./assets/projects/cards/hireway-mobile.svg" /><img src="./assets/projects/cards/hireway.svg" width="100%" alt="HireWay: Australian careers, starting with your education and skills. Preview of the public landing page." /></picture></a><br />
-  <sub><a href="https://hireway.custard.top">Visit HireWay ↗</a> · <a href="https://github.com/Muguett-DBY/HireWay">Source code</a></sub>
+  <a href="https://hireway.custard.top"><img src="./assets/profile/project-visit.svg" width="100" height="42" alt="Visit HireWay" /></a>
+  <a href="https://github.com/Muguett-DBY/HireWay"><img src="./assets/profile/project-source.svg" width="100" height="42" alt="HireWay source code" /></a>
 </p>
 
 <details>
@@ -90,12 +97,14 @@
 
 <p align="center">
   <a href="https://shoot.custard.top"><picture><source media="(max-width: 600px)" srcset="./assets/projects/cards/photography-mobile.svg" /><img src="./assets/projects/cards/photography.svg" width="100%" alt="Naihuangbao Photography: a home for portraits, galleries, and booking information. Preview of the photography homepage." /></picture></a><br />
-  <sub><a href="https://shoot.custard.top">Visit the gallery ↗</a> · <a href="https://github.com/Muguett-DBY/naihuangbao-photography">Source code</a></sub>
+  <a href="https://shoot.custard.top"><img src="./assets/profile/project-visit.svg" width="100" height="42" alt="Visit the photography gallery" /></a>
+  <a href="https://github.com/Muguett-DBY/naihuangbao-photography"><img src="./assets/profile/project-source.svg" width="100" height="42" alt="Naihuangbao Photography source code" /></a>
 </p>
 
 <p align="center">
   <a href="https://custard.top/en"><picture><source media="(max-width: 600px)" srcset="./assets/projects/cards/custard-web-mobile.svg" /><img src="./assets/projects/cards/custard-web.svg" width="100%" alt="Custard Web: my work, engineering notes, and experiments in one home. Preview of the selected-work page." /></picture></a><br />
-  <sub><a href="https://custard.top/en">Visit Custard Web ↗</a> · <a href="https://github.com/Muguett-DBY/RocoDex">Source code</a></sub>
+  <a href="https://custard.top/en"><img src="./assets/profile/project-visit.svg" width="100" height="42" alt="Visit Custard Web" /></a>
+  <a href="https://github.com/Muguett-DBY/RocoDex"><img src="./assets/profile/project-source.svg" width="100" height="42" alt="Custard Web source code" /></a>
 </p>
 
 <p align="center">
@@ -116,7 +125,7 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
 
 </details>
 
-### A little city, built one commit at a time
+### A little city, built one contribution at a time
 
 <p align="center">
   <picture>

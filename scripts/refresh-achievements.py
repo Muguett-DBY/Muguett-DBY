@@ -41,16 +41,23 @@ class AchievementParser(HTMLParser):
 def render_section(owner, badges):
     if not badges:
         raise ValueError("No native achievements found; keeping the previous showcase")
-    images = []
+    cells = []
     for slug, badge in badges.items():
         name = escape(badge["name"], quote=True)
         tier = f" ({badge['tier'].title()})" if badge["tier"] != "default" else ""
-        images.append(
-            f'  <a href="https://github.com/{owner}?achievement={slug}&amp;tab=achievements">'
-            f'<img src="{badge["source"]}" width="80" height="80" alt="{name}{tier}" title="{name}{tier}" /></a>'
+        tier_label = badge["tier"].title() if badge["tier"] != "default" else "Unlocked"
+        cells.append(
+            f'    <td width="50%" align="center"><a href="https://github.com/{owner}?achievement={slug}&amp;tab=achievements">'
+            f'<img src="{badge["source"]}" width="72" height="72" alt="" title="{name}{tier}" />'
+            f'<br /><strong><sub>{name}</sub></strong></a><br /><sub>{tier_label}</sub></td>'
         )
+    rows = []
+    for start in range(0, len(cells), 2):
+        row = cells[start:start + 2]
+        row += ['    <td width="50%"></td>'] * (2 - len(row))
+        rows.append("  <tr>\n" + "\n".join(row) + "\n  </tr>")
     return (
-        START + '\n<p align="center">\n' + "\n".join(images) + '\n</p>\n'
+        START + '\n<table align="center">\n' + "\n".join(rows) + '\n</table>\n'
         f'<p align="center"><sub><a href="https://github.com/{owner}?tab=achievements">'
         'Earned on GitHub</a> · Updated daily</sub></p>\n' + END
     )

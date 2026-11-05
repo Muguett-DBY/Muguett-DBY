@@ -55,7 +55,22 @@ class AchievementShowcaseTests(unittest.TestCase):
         section = module.render_section("Muguett-DBY", self.parse(image()))
         self.assertEqual(module.replace_section(original, section), "Before\n" + section + "\nAfter")
         self.assertIn("Pull Shark (Bronze)", section)
+        self.assertIn("<sub>Pull Shark</sub>", section)
+        self.assertIn("<sub>Bronze</sub>", section)
         self.assertNotIn("Starstruck", section)
+
+    def test_showcase_wraps_badges_in_rows_of_two(self):
+        badges = self.parse("".join(image(slug=f"badge-{n}", name=f"Badge {n}") for n in range(5)))
+        section = module.render_section("Muguett-DBY", badges)
+        self.assertEqual(section.count("<tr>"), 3)
+        self.assertEqual(section.count('<td width="50%"'), 6)
+        self.assertEqual(section.count('tab=achievements">'), 6)
+
+    def test_achievement_name_is_escaped_in_the_visible_label(self):
+        badges = {"example": {"name": "A & B", "tier": "default", "source": "https://github.githubassets.com/assets/example.png"}}
+        section = module.render_section("Muguett-DBY", badges)
+        self.assertIn("<sub>A &amp; B</sub>", section)
+        self.assertIn("<sub>Unlocked</sub>", section)
 
 
 if __name__ == "__main__":
