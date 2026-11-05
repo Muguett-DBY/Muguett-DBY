@@ -17,8 +17,8 @@
 <p align="center">
   <a href="https://custard.top"><img src="./assets/profile/nav-website.svg" width="132" height="38" alt="Visit my website" /></a>
   <a href="#user-content-selected-projects"><img src="./assets/profile/nav-projects.svg" width="132" height="38" alt="Explore my projects" /></a>
-  <a href="https://custard.top/en/notes"><img src="./assets/profile/nav-notes.svg" width="132" height="38" alt="Read my notes" /></a>
   <a href="#user-content-shipped-upstream"><img src="./assets/profile/nav-opensource.svg" width="132" height="38" alt="Open-source contributions" /></a>
+  <a href="#user-content-github-achievements"><img src="./assets/profile/nav-achievements.svg" width="132" height="38" alt="GitHub achievements" /></a>
 </p>
 
 <p align="center">
@@ -45,8 +45,10 @@
 <p align="center">
   <a href="https://github.com/Muguett-DBY?tab=repositories&amp;sort=stargazers"><img src="./assets/total-stars.svg" height="38" alt="Total stars received across my public repositories. Updated daily." /></a>
   <br />
-  <sub>Across all my public repositories · Updated daily</sub>
+  <sub>Across all public repositories, including forks · Updated daily</sub>
 </p>
+
+### GitHub achievements
 
 <p align="center">
   <picture>
@@ -119,40 +121,6 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
 
 </details>
 
-### A little city, built one contribution at a time
-
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile/activity-atlas-mobile.svg" />
-    <img src="./assets/profile/activity-atlas.svg" width="100%" alt="Activity atlas: a city of little steps." />
-  </picture>
-</p>
-
-<p align="center">
-  <img src="./profile-3d-contrib/custard-city.svg" width="100%" alt="My GitHub contribution calendar, shown as a mint and lavender 3D city." />
-</p>
-
-<!-- city-breakdown:start -->
-<p align="center">
-  <strong>5,361</strong>&nbsp;commits ·
-  <strong>10</strong>&nbsp;issues&nbsp;opened ·
-  <strong>68</strong>&nbsp;PRs&nbsp;opened ·
-  <strong>91</strong>&nbsp;reviews ·
-  <strong>41</strong>&nbsp;repos&nbsp;created
-</p>
-<!-- city-breakdown:end -->
-
-<sub>GitHub activity shown on my profile over the past year · Updated daily · Generated <!-- city-date -->2026-11-05<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/contribution-snake-light.svg" />
-    <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my GitHub contribution calendar." />
-  </picture>
-</p>
-
-<p align="center"><sub>A little contribution arcade · Snapshot <!-- snake-date -->2026-11-05<!-- /snake-date --></sub></p>
-
 ### Shipped upstream
 
 <p align="center">
@@ -196,6 +164,40 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
       <a href="https://github.com/zoltanf/extrudo/pull/131">Check attachment limits</a></td>
   </tr>
 </table>
+
+### A little city, built one contribution at a time
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/profile/activity-atlas-mobile.svg" />
+    <img src="./assets/profile/activity-atlas.svg" width="100%" alt="Activity atlas: a city of little steps." />
+  </picture>
+</p>
+
+<p align="center">
+  <img src="./profile-3d-contrib/custard-city.svg" width="100%" alt="My GitHub contribution calendar, shown as a mint and lavender 3D city." />
+</p>
+
+<!-- city-breakdown:start -->
+<p align="center">
+  <strong>5,361</strong>&nbsp;commits ·
+  <strong>10</strong>&nbsp;issues&nbsp;opened ·
+  <strong>68</strong>&nbsp;PRs&nbsp;opened ·
+  <strong>91</strong>&nbsp;reviews ·
+  <strong>41</strong>&nbsp;repos&nbsp;created
+</p>
+<!-- city-breakdown:end -->
+
+<sub>GitHub activity shown on my profile over the past year · Updated daily · Generated <!-- city-date -->2026-11-05<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/contribution-snake-light.svg" />
+    <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my GitHub contribution calendar." />
+  </picture>
+</p>
+
+<p align="center"><sub>A little contribution arcade · Snapshot <!-- snake-date -->2026-11-05<!-- /snake-date --></sub></p>
 
 <details>
   <summary>More from my GitHub workshop: statistics</summary>
