@@ -148,36 +148,36 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
 
 <table>
   <tr>
-    <td width="72" valign="middle"><img src="./assets/profile/upstream-data.svg" width="56" height="56" alt="Data" /></td>
+    <td width="56" valign="middle"><img src="./assets/profile/upstream-data.svg" width="44" height="44" alt="Data" /></td>
     <td valign="middle"><strong><a href="https://github.com/pandas-dev/pandas-stubs">pandas-stubs</a></strong><br />
-      <a href="https://github.com/pandas-dev/pandas-stubs/pull/2048">Align Series window signatures with pandas 3</a><br />
-      <a href="https://github.com/pandas-dev/pandas-stubs/pull/2053">Update the minimum NumPy version</a><br />
-      <a href="https://github.com/pandas-dev/pandas-stubs/pull/2070">Update ty and remove obsolete test suppressions</a></td>
+      <a href="https://github.com/pandas-dev/pandas-stubs/pull/2048">Series windows</a> ·
+      <a href="https://github.com/pandas-dev/pandas-stubs/pull/2053">NumPy minimum</a> ·
+      <a href="https://github.com/pandas-dev/pandas-stubs/pull/2070">ty type checks</a></td>
   </tr>
   <tr>
-    <td width="72" valign="middle"><img src="./assets/profile/upstream-imaging.svg" width="56" height="56" alt="Imaging" /></td>
+    <td width="56" valign="middle"><img src="./assets/profile/upstream-imaging.svg" width="44" height="44" alt="Imaging" /></td>
     <td valign="middle"><strong><a href="https://github.com/python-pillow/Pillow">Pillow</a></strong><br />
-      <a href="https://github.com/python-pillow/Pillow/pull/10328">Fix CMYK and keep_rgb MPO saving</a> · <a href="https://github.com/python-pillow/Pillow/pull/10300">Align CI check names</a> (co-authored)</td>
+      <a href="https://github.com/python-pillow/Pillow/pull/10328">CMYK and keep_rgb MPO saving</a> · <a href="https://github.com/python-pillow/Pillow/pull/10300">CI check names</a> (co-authored)</td>
   </tr>
   <tr>
-    <td width="72" valign="middle"><img src="./assets/profile/upstream-testing.svg" width="56" height="56" alt="Testing" /></td>
+    <td width="56" valign="middle"><img src="./assets/profile/upstream-testing.svg" width="44" height="44" alt="Testing" /></td>
     <td valign="middle"><strong><a href="https://github.com/MaciejZiel/pytest-queryguard">pytest-queryguard</a></strong><br />
-      <a href="https://github.com/MaciejZiel/pytest-queryguard/pull/210">Serve mounted ASGI panels</a> · <a href="https://github.com/MaciejZiel/pytest-queryguard/pull/211">Preserve WSGI file responses</a> · <a href="https://github.com/MaciejZiel/pytest-queryguard/pull/202">Keep query timings stable</a> · <a href="https://github.com/MaciejZiel/pytest-queryguard/pull/203">Attribute WSGI queries</a></td>
+      <a href="https://github.com/MaciejZiel/pytest-queryguard/pull/210">ASGI mounts</a> · <a href="https://github.com/MaciejZiel/pytest-queryguard/pull/211">WSGI file responses</a> · <a href="https://github.com/MaciejZiel/pytest-queryguard/pull/202">Stable query timing</a> · <a href="https://github.com/MaciejZiel/pytest-queryguard/pull/203">WSGI query attribution</a></td>
   </tr>
   <tr>
-    <td width="72" valign="middle"><img src="./assets/profile/upstream-achievements.svg" width="56" height="56" alt="GitHub tools" /></td>
+    <td width="56" valign="middle"><img src="./assets/profile/upstream-achievements.svg" width="44" height="44" alt="GitHub tools" /></td>
     <td valign="middle"><strong><a href="https://github.com/nmloc/gh-achievements">gh-achievements</a></strong><br />
-      <a href="https://github.com/nmloc/gh-achievements/pull/6">Detect earned badges more reliably</a></td>
+      <a href="https://github.com/nmloc/gh-achievements/pull/6">More reliable badge detection</a></td>
   </tr>
   <tr>
-    <td width="72" valign="middle"><img src="./assets/profile/upstream-stats.svg" width="56" height="56" alt="Statistics" /></td>
+    <td width="56" valign="middle"><img src="./assets/profile/upstream-stats.svg" width="44" height="44" alt="Statistics" /></td>
     <td valign="middle"><strong><a href="https://github.com/stats-organization/github-stats-extended">GitHub Stats Extended</a></strong><br />
-      <a href="https://github.com/stats-organization/github-stats-extended/pull/679">Clarify how long the cache lasts</a></td>
+      <a href="https://github.com/stats-organization/github-stats-extended/pull/679">Clarify cache duration</a></td>
   </tr>
   <tr>
-    <td width="72" valign="middle"><img src="./assets/profile/upstream-projects.svg" width="56" height="56" alt="Project tools" /></td>
+    <td width="56" valign="middle"><img src="./assets/profile/upstream-projects.svg" width="44" height="44" alt="Project tools" /></td>
     <td valign="middle"><strong><a href="https://github.com/zoltanf/extrudo">Extrudo</a></strong><br />
-      <a href="https://github.com/zoltanf/extrudo/pull/131">Check attachment limits before imports and copies</a></td>
+      <a href="https://github.com/zoltanf/extrudo/pull/131">Check attachment limits</a></td>
   </tr>
 </table>
 
