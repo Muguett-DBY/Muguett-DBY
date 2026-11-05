@@ -219,7 +219,7 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
   <a href="https://github.com/Muguett-DBY?tab=repositories"><img src="./assets/profile/nav-repositories.svg" width="132" height="38" alt="Browse all repositories" /></a>
 </p>
 
-<p align="center"><sub>Have an idea or found a bug? Open an issue in the project.</sub></p>
+<p align="center"><sub><a href="./docs/REUSE_PROFILE.md">Reuse the profile widgets</a> · <a href="https://github.com/Muguett-DBY/Muguett-DBY/issues">Report a profile issue</a></sub></p>
 
 <p align="center">
   <picture>

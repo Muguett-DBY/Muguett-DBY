@@ -42,22 +42,29 @@ milestone used by GitHub's Starstruck achievement.
 ## Already-earned achievements
 
 [`scripts/refresh-achievements.py`](../scripts/refresh-achievements.py) also uses
-only the Python standard library. Add one marked block to your README:
+only the Python standard library. Copy it into `scripts/` and add one marked
+block to your profile README:
 
 ```html
 <!-- earned-achievements:start -->
 <!-- earned-achievements:end -->
 ```
 
-Run the script with `GITHUB_REPOSITORY_OWNER` set to your account. It reads
-GitHub's native achievement hovercards, removes duplicate sidebar entries and
-updates only this block. It does not grant achievements or show unearned ones.
-The badge images stay on GitHub's asset host. If the response contains no native
-badges, the script fails without replacing the existing showcase.
+```yaml
+- name: Refresh earned achievements
+  run: python3 scripts/refresh-achievements.py
+  env:
+    GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+```
 
-If the account has no native awards yet, omit this step until an award appears.
-GitHub's profile HTML is not a stable API; markup changes may require a parser
-update. Do not use this as an authentication or eligibility check.
+The script reads the awards shown on your public GitHub profile and deduplicates
+repeated entries. It wraps GitHub's badge images in self-contained SVG cards
+under `assets/profile/achievements/` and updates the marked README block. Commit
+both the cards and the README in your publishing step.
+
+If your profile has no visible awards yet, add this step once an award appears.
+An empty result or an unavailable badge image leaves the previous showcase in
+place. The script relies on GitHub's public profile markup, which can change.
 
 ## Publishing without stale checkouts
 
@@ -65,9 +72,9 @@ Jobs that write artwork share one concurrency group and check out the current
 default branch when they start. Otherwise, a queued job can use its older event
 commit and fail to push after another refresh has already published changes.
 
-Commit only the intended SVGs and README. A failed fetch or validation must
-stop publication so the previous assets remain usable. The normal profile
-refresh workflow can also be run manually.
+Commit the intended SVGs and README after validation. The daily workflow can
+still update the star badge and city if a badge image is temporarily unavailable.
+You can run either profile workflow manually from the Actions tab.
 
 ## Credits and reuse terms
 
