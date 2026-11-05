@@ -93,10 +93,11 @@ The earned-achievements showcase links to native badges already visible on this
 account's public GitHub profile. `scripts/refresh-achievements.py` reads GitHub's
 native achievement hovercards, removes duplicate sidebar entries, and updates
 only the marked README block. It neither grants achievements nor displays
-unearned badges. The badge images are served by GitHub and remain GitHub's
-artwork; they are not relicensed by this repository. Both refresh workflows
-update the showcase, and a failed or changed profile response preserves the
-previous version.
+unearned badges. The original GitHub badge artwork is embedded in responsive
+showcase cards and remains GitHub's artwork; it is not relicensed by this
+repository. Matching embedded images are reused between refreshes. Both refresh
+workflows update the showcase, and a failed profile or image response preserves
+the previous version.
 
 ## Original assets
 

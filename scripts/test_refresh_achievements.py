@@ -1,11 +1,15 @@
 """Guard native-badge parsing against duplicates, unrelated images and failed fetches."""
 import importlib.util
 from pathlib import Path
+import struct
 import unittest
+from unittest.mock import patch
+import xml.etree.ElementTree as ET
 
 spec = importlib.util.spec_from_file_location("refresh_achievements", Path(__file__).with_name("refresh-achievements.py"))
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
+PNG = b"\x89PNG\r\n\x1a\n" + b"\x00\x00\x00\x0dIHDR" + struct.pack(">II", 64, 64)
 
 
 def image(owner="Muguett-DBY", slug="pull-shark", source="https://github.githubassets.com/assets/pull-shark-bronze-example.png", name="Pull Shark"):
@@ -55,22 +59,62 @@ class AchievementShowcaseTests(unittest.TestCase):
         section = module.render_section("Muguett-DBY", self.parse(image()))
         self.assertEqual(module.replace_section(original, section), "Before\n" + section + "\nAfter")
         self.assertIn("Pull Shark (Bronze)", section)
-        self.assertIn("<sub>Pull Shark</sub>", section)
-        self.assertIn("<sub>Bronze</sub>", section)
+        self.assertIn("./assets/profile/achievements/pull-shark.svg", section)
+        self.assertIn('alt="Pull Shark (Bronze), earned GitHub achievement"', section)
         self.assertNotIn("Starstruck", section)
 
-    def test_showcase_wraps_badges_in_rows_of_two(self):
+    def test_showcase_cards_can_wrap_with_the_available_width(self):
         badges = self.parse("".join(image(slug=f"badge-{n}", name=f"Badge {n}") for n in range(5)))
         section = module.render_section("Muguett-DBY", badges)
-        self.assertEqual(section.count("<tr>"), 3)
-        self.assertEqual(section.count('<td width="180"'), 6)
+        self.assertNotIn("<table", section)
+        self.assertEqual(section.count('width="106" height="152"'), 5)
         self.assertEqual(section.count('tab=achievements">'), 6)
 
     def test_achievement_name_is_escaped_in_the_visible_label(self):
         badges = {"example": {"name": "A & B", "tier": "default", "source": "https://github.githubassets.com/assets/example.png"}}
         section = module.render_section("Muguett-DBY", badges)
-        self.assertIn("<sub>A &amp; B</sub>", section)
-        self.assertIn("<sub>Unlocked</sub>", section)
+        self.assertIn("A &amp; B, earned GitHub achievement", section)
+        card = module.render_card(badges["example"], PNG)
+        self.assertIn("A &amp; B", card)
+        self.assertIn(">UNLOCKED</text>", card)
+        ET.fromstring(card)
+
+    def test_cached_image_is_reused_only_for_the_current_source(self):
+        badge = {"name": "Pull Shark", "tier": "bronze", "source": "https://github.githubassets.com/assets/pull-shark-bronze-example.png"}
+        card = module.render_card(badge, PNG)
+        self.assertEqual(module.cached_png(card, badge["source"]), PNG)
+        self.assertIsNone(module.cached_png(card, badge["source"].replace("bronze", "silver")))
+        self.assertIsNone(module.cached_png("<not-an-svg", badge["source"]))
+
+    def test_invalid_image_is_rejected(self):
+        for data in (b"not a PNG", PNG[:16] + struct.pack(">II", 0, 64)):
+            with self.subTest(data=data), self.assertRaises(ValueError):
+                module.validate_png(data)
+
+    def test_existing_current_card_needs_no_image_download(self):
+        badge = {"name": "Pull Shark", "tier": "bronze", "source": "https://github.githubassets.com/assets/pull-shark-bronze-example.png"}
+        path = Path("fake-cards") / "pull-shark.svg"
+        original = module.render_card(badge, PNG)
+        with patch.object(Path, "exists", return_value=True), patch.object(Path, "read_text", return_value=original), patch.object(module, "fetch_png") as fetch:
+            self.assertEqual(module.prepare_cards({"pull-shark": badge}, path.parent)[path], original)
+            fetch.assert_not_called()
+
+    def test_failed_image_fetch_does_not_write_partial_cards(self):
+        badge = {"name": "Pull Shark", "tier": "bronze", "source": "https://github.githubassets.com/assets/pull-shark-bronze-example.png"}
+        with patch.object(Path, "exists", return_value=False), patch.object(Path, "write_text") as write, patch.object(module, "fetch_png", side_effect=OSError("CDN unavailable")):
+            with self.assertRaises(OSError):
+                module.prepare_cards({"pull-shark": badge}, Path("fake-cards"))
+            write.assert_not_called()
+
+    def test_tier_upgrade_fetches_and_renders_the_new_badge(self):
+        old = {"name": "Pull Shark", "tier": "bronze", "source": "https://github.githubassets.com/assets/pull-shark-bronze-example.png"}
+        new = {**old, "tier": "silver", "source": old["source"].replace("bronze", "silver")}
+        path = Path("fake-cards") / "pull-shark.svg"
+        with patch.object(Path, "exists", return_value=True), patch.object(Path, "read_text", return_value=module.render_card(old, PNG)), patch.object(module, "fetch_png", return_value=PNG) as fetch:
+            rendered = module.prepare_cards({"pull-shark": new}, path.parent)[path]
+        fetch.assert_called_once_with(new["source"])
+        self.assertIn(">SILVER</text>", rendered)
+        self.assertEqual(module.cached_png(rendered, new["source"]), PNG)
 
 
 if __name__ == "__main__":
