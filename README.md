@@ -132,6 +132,16 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
   <img src="./profile-3d-contrib/custard-city.svg" width="100%" alt="My public GitHub contribution calendar, shown as a mint and lavender 3D city." />
 </p>
 
+<!-- city-breakdown:start -->
+<p align="center">
+  <strong>5,360</strong>&nbsp;commits ·
+  <strong>10</strong>&nbsp;issues&nbsp;opened ·
+  <strong>68</strong>&nbsp;PRs&nbsp;opened ·
+  <strong>89</strong>&nbsp;reviews ·
+  <strong>41</strong>&nbsp;repos&nbsp;created
+</p>
+<!-- city-breakdown:end -->
+
 <sub>Public GitHub activity over the past year · Updated daily · Generated <!-- city-date -->2026-11-05<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
 
 <p align="center">
