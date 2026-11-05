@@ -100,7 +100,8 @@ previous version.
 
 ## Original assets
 
-The custard astronaut banner is an AI-generated illustration made for this profile.
+The custard astronaut banners are AI-generated illustrations made for this profile.
+The mobile version is adapted from the original desktop banner.
 The project cards, footer, and optional terminal GIF were created for this profile.
 
 The pixel mascot in `assets/workshop-divider.svg` and `assets/workshop-footer.svg`

@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/custard-space.png" width="100%" alt="Hi, I'm Custard. Data, code and little worlds. A custard-bun astronaut in a pixel-art space studio." />
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/custard-space-mobile.png" />
+    <img src="./assets/custard-space.png" width="100%" alt="Hi, I'm Custard. Data, code and little worlds. A custard-bun astronaut in a pixel-art space studio." />
+  </picture>
 </p>
 
 <p align="center">
