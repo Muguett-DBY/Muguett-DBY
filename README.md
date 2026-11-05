@@ -129,7 +129,7 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
 </p>
 
 <p align="center">
-  <img src="./profile-3d-contrib/custard-city.svg" width="100%" alt="My public GitHub contribution calendar, shown as a mint and lavender 3D city." />
+  <img src="./profile-3d-contrib/custard-city.svg" width="100%" alt="My GitHub contribution calendar, shown as a mint and lavender 3D city." />
 </p>
 
 <!-- city-breakdown:start -->
@@ -142,12 +142,12 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
 </p>
 <!-- city-breakdown:end -->
 
-<sub>Public GitHub activity over the past year · Updated daily · Generated <!-- city-date -->2026-11-05<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
+<sub>GitHub activity shown on my profile over the past year · Updated daily · Generated <!-- city-date -->2026-11-05<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="./assets/contribution-snake-light.svg" />
-    <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my public contribution calendar." />
+    <img src="./assets/contribution-snake.svg" width="100%" alt="A lavender snake moving through my GitHub contribution calendar." />
   </picture>
 </p>
 
@@ -201,7 +201,7 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
   <summary>More from my GitHub workshop: statistics</summary>
 
 <p align="center">
-  <img src="./assets/github-stats.svg" width="360" alt="GitHub statistics from public activity." />
+  <img src="./assets/github-stats.svg" width="360" alt="GitHub statistics shown on my profile." />
   <img src="./assets/top-languages.svg" width="360" alt="Language distribution across public repositories." />
 </p>
 
