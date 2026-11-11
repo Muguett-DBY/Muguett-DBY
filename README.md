@@ -7,7 +7,7 @@
 
 <p align="center">
   AI agent reliability · Reproducible research<br />
-  <sub>PhD Year 1 · Bachelor's &amp; Master's in Data Science</sub>
+  <sub>Bachelor's &amp; Master's in Data Science</sub>
 </p>
 
 <p align="center">
