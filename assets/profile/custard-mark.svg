@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="620" viewBox="0 0 600 620" fill="none">
+  <defs>
+    <linearGradient id="metal" x1="84" y1="164" x2="467" y2="436" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#545149"/><stop offset=".16" stop-color="#b5a17b"/><stop offset=".29" stop-color="#f6e6bd"/>
+      <stop offset=".42" stop-color="#d4bd8d"/><stop offset=".55" stop-color="#8e794f"/><stop offset=".69" stop-color="#e8d7ad"/>
+      <stop offset=".82" stop-color="#fff3d5"/><stop offset="1" stop-color="#a38e69"/>
+    </linearGradient>
+    <linearGradient id="cut" x1="365" y1="375" x2="454" y2="495" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#80745b"/><stop offset=".45" stop-color="#333a35"/><stop offset="1" stop-color="#171f1b"/>
+    </linearGradient>
+    <linearGradient id="lip" x1="388" y1="185" x2="494" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#534d3c"/><stop offset=".5" stop-color="#e5d2a5"/><stop offset="1" stop-color="#ae9564"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="104" y1="99" x2="420" y2="513" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff9e8"/><stop offset=".4" stop-color="#faf0d1" stop-opacity=".25"/><stop offset="1" stop-color="#fff6d9"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="0" cy="0" r="1" gradientTransform="translate(161 206) rotate(43) scale(270 135)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffdf4" stop-opacity=".8"/><stop offset="1" stop-color="#fffdf4" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="0" y="0" width="600" height="620" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="7" dy="29" stdDeviation="21" flood-color="#4a402d" flood-opacity=".17"/>
+    </filter>
+  </defs>
+  <g transform="rotate(-12 300 300)" filter="url(#shadow)">
+    <path d="M428 90C281-2 115 82 92 247C69 410 200 533 356 513C407 506 448 484 480 454L398 365C373 386 346 396 315 394C244 390 202 340 208 272C213 200 268 160 333 178C355 184 374 196 391 213L482 129C464 113 447 100 428 90Z" fill="url(#metal)"/>
+    <path d="M428 90C281-2 115 82 92 247C69 410 200 533 356 513C407 506 448 484 480 454L398 365C373 386 346 396 315 394C244 390 202 340 208 272C213 200 268 160 333 178C355 184 374 196 391 213L482 129C464 113 447 100 428 90Z" fill="url(#shine)"/>
+    <path d="M391 213L482 129L497 153L408 236L391 213Z" fill="url(#lip)"/>
+    <path d="M398 365L480 454L468 482L383 393L398 365Z" fill="url(#cut)"/>
+    <path d="M208 272C202 340 244 390 315 394C346 396 373 386 398 365L383 393C359 410 333 419 304 416C234 410 187 355 193 286C199 208 257 162 326 178" fill="#5b594a" opacity=".58"/>
+    <path d="M428 90C281-2 115 82 92 247C69 410 200 533 356 513C407 506 448 484 480 454" stroke="url(#rim)" stroke-width="2"/>
+    <path d="M391 213C374 196 355 184 333 178C268 160 213 200 208 272" stroke="#fffae9" stroke-opacity=".85" stroke-width="1.5"/>
+    <path d="M111 246C132 102 278 27 411 106" stroke="#f8edcd" stroke-opacity=".3"/>
+    <path d="M113 264C100 396 214 504 350 492" stroke="#594d35" stroke-opacity=".18"/>
+    <path d="M398 365L480 454" stroke="#fff3ce" stroke-width="1.5"/>
+  </g>
+</svg>

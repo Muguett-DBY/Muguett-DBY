@@ -1,36 +1,21 @@
 <p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/custard-space-mobile.png" />
-    <img src="./assets/custard-space.png" width="100%" alt="Hi, I'm Custard. Data, code and little worlds. A custard-bun astronaut in a pixel-art space studio." />
-  </picture>
+  <a href="https://custard.top"><img src="./assets/profile/custard-mark.svg" width="96" height="99" alt="Custard's gold C mark" /></a><br />
+  <strong>Custard</strong>
+</p>
+
+<h1 align="center">Doctoral Researcher in Artificial Intelligence</h1>
+
+<p align="center">
+  AI agent reliability · Reproducible research<br />
+  <sub>PhD Year 1 · Bachelor's &amp; Master's in Data Science</sub>
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile/typing-static-mobile.svg" />
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile/typing-static.svg" />
-    <source media="(max-width: 600px)" srcset="./assets/profile/typing-mobile.svg" />
-    <img src="./assets/typing.svg" width="100%" alt="Turning data into useful products. Building little worlds with code. Exploring artificial intelligence." />
-  </picture>
+  <a href="https://custard.top/en">Website</a> ·
+  <a href="#user-content-selected-projects">Selected work</a> ·
+  <a href="#user-content-shipped-upstream">Open-source contributions</a> ·
+  <a href="#user-content-github-achievements">Achievements</a>
 </p>
-
-<p align="center">
-  <a href="https://custard.top"><img src="./assets/profile/nav-website.svg" width="132" height="38" alt="Visit my website" /></a>
-  <a href="#user-content-selected-projects"><img src="./assets/profile/nav-projects.svg" width="132" height="38" alt="Explore my projects" /></a>
-  <a href="#user-content-shipped-upstream"><img src="./assets/profile/nav-opensource.svg" width="132" height="38" alt="Open-source contributions" /></a>
-  <a href="#user-content-github-achievements"><img src="./assets/profile/nav-achievements.svg" width="132" height="38" alt="GitHub achievements" /></a>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile/intro-mobile.svg" />
-    <img src="./assets/profile/intro.svg" width="100%" alt="I'm Custard. I build useful products and little worlds with code. Bachelor's and Master's in Data Science." />
-  </picture>
-</p>
-
-<p align="center"><strong>First-year PhD student in Artificial Intelligence</strong></p>
-
-<p align="center"><strong>Data &amp; AI</strong> &nbsp;·&nbsp; Web products &nbsp;·&nbsp; Creative experiments</p>
 
 <p align="center">
   <img src="./assets/skill-icons/python.svg" width="42" height="42" alt="Python" title="Python" />

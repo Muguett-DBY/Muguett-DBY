@@ -101,6 +101,9 @@ the previous version.
 
 ## Original assets
 
+The gold Custard mark in `assets/profile/custard-mark.svg` comes from the
+[custard.top portfolio artwork](https://github.com/Muguett-DBY/RocoDex/blob/main/public/cstd-atelier/fold-study-v1.svg).
+
 The custard astronaut banners are AI-generated illustrations made for this profile.
 The mobile version is adapted from the original desktop banner.
 The project cards, footer, and optional terminal GIF were created for this profile.
