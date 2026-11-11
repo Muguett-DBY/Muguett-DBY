@@ -28,6 +28,8 @@
   </picture>
 </p>
 
+<p align="center"><strong>First-year PhD student in Artificial Intelligence</strong></p>
+
 <p align="center"><strong>Data &amp; AI</strong> &nbsp;·&nbsp; Web products &nbsp;·&nbsp; Creative experiments</p>
 
 <p align="center">
