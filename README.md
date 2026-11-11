@@ -3,7 +3,7 @@
   <strong>Custard</strong>
 </p>
 
-<h1 align="center">Doctoral Researcher in Artificial Intelligence</h1>
+<h1 align="center">PhD Researcher in Artificial Intelligence</h1>
 
 <p align="center">
   AI agent reliability · Reproducible research<br />
