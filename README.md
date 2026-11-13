@@ -175,7 +175,7 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
 </p>
 <!-- city-breakdown:end -->
 
-<sub>GitHub activity shown on my profile over the past year · Updated daily · Generated <!-- city-date -->2026-11-12<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
+<sub>GitHub activity shown on my profile over the past year · Updated daily · Generated <!-- city-date -->2026-11-13<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
 
 <p align="center">
   <picture>
