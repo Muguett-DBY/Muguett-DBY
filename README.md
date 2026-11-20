@@ -46,8 +46,8 @@
 
 <!-- earned-achievements:start -->
 <p align="center">
+  <a href="https://github.com/Muguett-DBY?achievement=galaxy-brain&amp;tab=achievements"><img src="./assets/profile/achievements/galaxy-brain.svg" width="106" height="152" alt="Galaxy Brain (Silver), earned GitHub achievement" title="Galaxy Brain (Silver)" /></a>
   <a href="https://github.com/Muguett-DBY?achievement=pair-extraordinaire&amp;tab=achievements"><img src="./assets/profile/achievements/pair-extraordinaire.svg" width="106" height="152" alt="Pair Extraordinaire, earned GitHub achievement" title="Pair Extraordinaire" /></a>
-  <a href="https://github.com/Muguett-DBY?achievement=galaxy-brain&amp;tab=achievements"><img src="./assets/profile/achievements/galaxy-brain.svg" width="106" height="152" alt="Galaxy Brain (Bronze), earned GitHub achievement" title="Galaxy Brain (Bronze)" /></a>
   <a href="https://github.com/Muguett-DBY?achievement=public-sponsor&amp;tab=achievements"><img src="./assets/profile/achievements/public-sponsor.svg" width="106" height="152" alt="Public Sponsor, earned GitHub achievement" title="Public Sponsor" /></a>
   <a href="https://github.com/Muguett-DBY?achievement=quickdraw&amp;tab=achievements"><img src="./assets/profile/achievements/quickdraw.svg" width="106" height="152" alt="Quickdraw, earned GitHub achievement" title="Quickdraw" /></a>
   <a href="https://github.com/Muguett-DBY?achievement=pull-shark&amp;tab=achievements"><img src="./assets/profile/achievements/pull-shark.svg" width="106" height="152" alt="Pull Shark (Bronze), earned GitHub achievement" title="Pull Shark (Bronze)" /></a>
@@ -170,12 +170,12 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
   <strong>5,391</strong>&nbsp;commits ·
   <strong>14</strong>&nbsp;issues&nbsp;opened ·
   <strong>84</strong>&nbsp;PRs&nbsp;opened ·
-  <strong>102</strong>&nbsp;reviews ·
-  <strong>47</strong>&nbsp;repos&nbsp;created
+  <strong>105</strong>&nbsp;reviews ·
+  <strong>48</strong>&nbsp;repos&nbsp;created
 </p>
 <!-- city-breakdown:end -->
 
-<sub>GitHub activity shown on my profile over the past year · Updated daily · Generated <!-- city-date -->2026-11-20<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
+<sub>GitHub activity shown on my profile over the past year · Updated daily · Generated <!-- city-date -->2026-11-21<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
 
 <p align="center">
   <picture>
