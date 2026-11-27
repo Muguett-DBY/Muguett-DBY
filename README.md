@@ -167,15 +167,15 @@ An archived city-travel project about quieter spaces and crowd insights. The sou
 
 <!-- city-breakdown:start -->
 <p align="center">
-  <strong>5,399</strong>&nbsp;commits ·
+  <strong>5,404</strong>&nbsp;commits ·
   <strong>14</strong>&nbsp;issues&nbsp;opened ·
   <strong>91</strong>&nbsp;PRs&nbsp;opened ·
   <strong>108</strong>&nbsp;reviews ·
-  <strong>48</strong>&nbsp;repos&nbsp;created
+  <strong>49</strong>&nbsp;repos&nbsp;created
 </p>
 <!-- city-breakdown:end -->
 
-<sub>GitHub activity shown on my profile over the past year · Updated daily · Generated <!-- city-date -->2026-11-26<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
+<sub>GitHub activity shown on my profile over the past year · Updated daily · Generated <!-- city-date -->2026-11-27<!-- /city-date -->. Colours adapt to light and dark themes.</sub>
 
 <p align="center">
   <picture>
